@@ -1,0 +1,79 @@
+body {
+    width: 400px;
+    padding: 25px;
+    margin: 200px;
+animation: pulse 20s infinite;
+}
+@keyframes pulse {
+  0% {
+    background-color: #7DAFA5;
+  }
+  100% {
+    background-color: #604907;
+  }
+
+}
+
+#myh1{ 
+}
+    
+
+p{ 
+    color: black;
+    background-color: white;
+    width: 100px;
+    height:400px;
+    overflow: hidden;
+    text-decoration: none; 
+    letter-spacing: 3px;
+
+    
+}
+
+
+#para1{
+    color: white;
+    background-color: black;
+    font-family: Arial;
+    width: 300px;
+    height:20px;
+    text-decoration: none; 
+    letter-spacing: 3px;
+}
+
+#box{
+    background-color: black;
+    font-family: Arial;
+    width: 600px;
+    height:20px;
+    text-decoration: none; 
+    letter-spacing: 3px;
+}
+#box2{
+    width:200px;
+height:10px;
+margin:10px;
+padding:10px;
+float: left;
+background-color:#604907;
+position: fixed;
+}
+
+
+.ontop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 10px;
+    border: 10px groove;
+    
+    
+}
+
+
+a{
+    font-family: Arial;
+    text-decoration: none;
+   
+}
