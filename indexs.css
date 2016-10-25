@@ -1,0 +1,29 @@
+
+.circle {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 150px;
+	position: relative;
+	top: 10px;
+	left: 40px;
+}
+.circletwo {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 50px;
+	left: 60px;
+
+}
+
+
+.title {
+    font-family:Helvetica Neue;
+    font-size: 60px
+    position: ;
+    
+}
+
