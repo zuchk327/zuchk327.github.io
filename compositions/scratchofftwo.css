@@ -1,9 +1,5 @@
-body {
-    background-color: #2D2B2C
 
-    
-}
-
-#scratchoff{
-    width:50px;
+#scratchoff {
+    width:10px;
+    position: absolute
 }
