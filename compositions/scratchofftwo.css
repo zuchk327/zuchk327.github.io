@@ -1,16 +1,35 @@
 body {
     margin:100px;
+    background-color:black;
+    border-left-width: 600px
 }
 
-#scratchoff {
+.scratchoff {
     width: 100%;
-    height: auto;
+    height: 100px
     
 }
 
-#title {
+.title {
     font-family: helvetica, arial; 
     font-size: 60px;
+    position: fixed;
+    top:0;
+    right:0;
+    margin:0;
+    color: yellow;
+    text-align: right;
 
     
+}
+
+.body {
+    font-family: helvetica,arial;
+    font-size:10px;
+    position:fixed;
+    top:300;
+    right:0;
+    margin:0;
+    color:white;
+    text-align: right;
 }
