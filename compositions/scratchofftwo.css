@@ -1,5 +1,16 @@
+body {
+    margin:100px;
+}
 
 #scratchoff {
-    width:10px;
-    position: absolute
+    width: 100%;
+    height: auto;
+    
+}
+
+#title {
+    font-family: helvetica, arial; 
+    font-size: 60px;
+
+    
 }
