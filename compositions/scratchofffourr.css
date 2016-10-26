@@ -22,6 +22,15 @@ body {
 
 }
 
+
+
+
+
+
+
+
+
+
 .title2 {
      font-family: helvetica, arial; 
     font-size: 60px;
@@ -85,6 +94,41 @@ body {
 	
 }
 
+
+.circle:hover {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    line-height: 300px;
+    color: orange;
+}
+
+.circle:active {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    line-height: 300px;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .circle2 {
     width: 40px;
 	height: 40px;
@@ -96,6 +140,24 @@ body {
     margin:0;
     
 }
+.circle2:hover {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    line-height: 300px;
+    color: orange;
+}
+
+.circle2:active {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    line-height: 300px;
+    color: orange;
+}
+
+
+
 
 .circle3 {
     width: 70px;
@@ -109,6 +171,21 @@ body {
     transition: all 8s;
 }
 
+.circle3:hover {
+    width: 70px;
+    height: 70px;
+    background-color: white;
+    line-height: 300px;
+    
+}
+
+.circle3:active {
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
 
     .circle4 {
     width: 100px;
@@ -119,6 +196,22 @@ body {
     top:360;
     right:600;
     margin:0;
+    
+}
+
+.circle4:hover {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    line-height: 300px;
+    
+}
+
+.circle4:active {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    line-height: 300px;
     
 }
 
@@ -134,6 +227,22 @@ body {
     
 }
 
+.circle5:hover {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle5:active {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
 .circle6 {
     width: 40px;
 	height: 40px;
@@ -146,6 +255,22 @@ body {
     
 }
 
+.circle6:hover {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    line-height: 300px;
+    
+}
+
+.circle6:active {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
 .circle7 {
     width: 80px;
 	height: 80px;
@@ -155,7 +280,23 @@ body {
     top:30;
     right:400;
     margin:0;
-    transition: all 10s;
+  
+}
+
+.circle7:hover {
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    line-height: 300px;
+    
+}
+
+.circle7:active {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    line-height: 300px;
+    
 }
 
 .circle8 {
