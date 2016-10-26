@@ -83,6 +83,7 @@
 
 }
 
+
 .circle9 {
 	width: 10px;
 	height: 10px;
@@ -93,7 +94,28 @@
 	left: 40px;
 }
 
+.circle10 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 370px;
+	left: 60px;
 
+}
+
+
+
+.circle11 {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 150px;
+	position: relative;
+	top: 410px;
+	left: 40px;
+}
 
 
 
@@ -101,8 +123,53 @@
 
 .title {
     font-family:Helvetica Neue;
-    font-size: 60px
-    position: ;
+    font-size: 60px;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    text-align: right;
+    position: absolute;
+    top: 100px;
+    right: 0;
+    margin: 0;
     
+    
+}
+
+@keyframes example {
+    0% {
+        color: red;
+    }
+    20% {
+        color: blue;
+    }
+    40% {
+        color: red;
+    }
+    60% {
+        color: blue;
+    }
+    80% {
+        color: red;
+    }
+    100% {
+        color: blue;
+    }
+}
+
+    
+    .list {
+    	font-family: helvetica, sans-serif;
+    	font-size: 30px;
+    	text-align: right;
+    	text-decoration: none
+    	
+    
+    	
+    }
+
+a:hover {
+	background-color: red;
+	display: inline-block;
 }
 
