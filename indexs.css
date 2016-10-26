@@ -19,6 +19,65 @@
 
 }
 
+.circle3 {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 150px;
+	position: relative;
+	top: 90px;
+	left: 40px;
+}
+
+.circle4 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 130px;
+	left: 60px;
+
+}
+
+.circle5 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 170px;
+	left: 60px;
+
+}
+
+.circle6 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 210px;
+	left: 60px;
+
+}
+
+.circle7 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 250px;
+	left: 60px;
+
+}
+
+
+
+
+
+
 
 .title {
     font-family:Helvetica Neue;
