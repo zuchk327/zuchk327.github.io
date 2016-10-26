@@ -72,6 +72,28 @@
 	left: 40px;
 }
 
+.circle8 {
+	width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position: relative;
+	top: 290px;
+	left: 60px;
+
+}
+
+.circle9 {
+	width: 10px;
+	height: 10px;
+	background-color: red;
+	border-radius: 150px;
+	position: relative;
+	top: 330px;
+	left: 40px;
+}
+
+
 
 
 
