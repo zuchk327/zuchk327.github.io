@@ -1,7 +1,18 @@
 body {
     margin:100px;
     background-color:black;
-    border-left-width: 600px
+    border-left-width: 600px;
+    border-radius: 100%;
+    transition: all 10s;
+    animation-iteration-count: infinite;
+}
+
+body:hover {
+    margin:100px;
+    background-color: #097d73;
+    border-left-width: 600px;
+    
+    
 }
 
 .scratchoff {
@@ -133,11 +144,12 @@ body {
     width: 40px;
 	height: 40px;
 	background-color: white;
-	border-radius: 150px;
 	position:fixed;
     top:300;
     right:0;
     margin:0;
+    border-radius: 100%;
+    transition: all 2s;
     
 }
 .circle2:hover {
@@ -168,13 +180,12 @@ body {
     top:360;
     right:400;
     margin:0;
-    transition: all 8s;
 }
 
 .circle3:hover {
     width: 70px;
     height: 70px;
-    background-color: white;
+    background-color: green;
     line-height: 300px;
     
 }
@@ -286,7 +297,7 @@ body {
 .circle7:hover {
     width: 80px;
     height: 80px;
-    background-color: blue;
+    background-color: purple;
     line-height: 300px;
     
 }
@@ -308,7 +319,22 @@ body {
     top:400;
     right:800;
     margin:0;
-    transition: all 10s;
+    
+}
+
+.circle8:hover {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    line-height: 300px;
+    
+}
+
+.circle8:active {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    line-height: 300px;
     
 }
 
@@ -324,6 +350,22 @@ body {
     
 }
 
+.circle9:hover {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    line-height: 300px;
+    
+}
+
+.circle9:active {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
 .circle10 {
     width: 20px;
 	height: 20px;
@@ -334,6 +376,22 @@ body {
     right:500;
     margin:0;
  
+}
+
+.circle10:hover {
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle10:active {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    line-height: 300px;
+    
 }
 
 .circle12 {
@@ -347,15 +405,30 @@ body {
     margin:0;
 }
 
-.circle13 {
-    width: 20px;
-	height: 20px;
-	background-color: white;
+.circle12 {
+    width: 90px;
+	height: 90px;
+	background-color: gray;
 	border-radius: 150px;
 	position:fixed;
     top:500;
     right:900;
     margin:0;
+}
+.circle12:hover {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    line-height: 300px;
+    
+}
+
+.circle13:active {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    line-height: 300px;
+    
 }
 
 .backhome {
