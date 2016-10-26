@@ -70,20 +70,7 @@ body {
 
 
 
-.body {
-    font-family: helvetica,arial;
-    font-size:30px;
-    position:fixed;
-    top:430;
-    right:20;
-    margin:0;
-    color: white;
-    text-align: right;
-    animation-duration: 10s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-  
-}
+
 
  
 .circle {
@@ -230,3 +217,17 @@ body {
     margin:0;
 }
 
+.backhome {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    top:2300px;
+    right:65;
+    margin:0;
+    text-align: right;
+}
+a:hover {
+    background-color: blue;
+    
+}
