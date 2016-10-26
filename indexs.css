@@ -41,15 +41,15 @@
 }
 
 .circle5 {
-	width: 30px;
-	height: 30px;
-	background-color: blue;
+	width: 10px;
+	height: 10px;
+	background-color: red;
 	border-radius: 150px;
 	position: relative;
 	top: 170px;
-	left: 60px;
-
+	left: 40px;
 }
+
 
 .circle6 {
 	width: 30px;
@@ -63,16 +63,14 @@
 }
 
 .circle7 {
-	width: 30px;
-	height: 30px;
-	background-color: blue;
+	width: 10px;
+	height: 10px;
+	background-color: red;
 	border-radius: 150px;
 	position: relative;
 	top: 250px;
-	left: 60px;
-
+	left: 40px;
 }
-
 
 
 
