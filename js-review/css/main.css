@@ -295,7 +295,7 @@ body {
     height: 200px;
     background-color:white;
     display: inline-block;
- 
+ cursor: pointer;
     
     
 }
