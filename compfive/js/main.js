@@ -8,7 +8,6 @@ $("button").click(function() {
     console.log("clicks");
 });
 
-
  
 for (var i = 0; i < 50; i++)  {
     $("body").append("<div class='dot'></div>");
