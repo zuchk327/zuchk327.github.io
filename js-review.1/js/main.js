@@ -29,9 +29,3 @@ $(".box").mousedown(function() {
    
     
 });
-
-$(".titlept2").click(function() {
-    $('html,body').animate({
-        scrollTop: $(".second").offset().top},
-        'slow');
-});
