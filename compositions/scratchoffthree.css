@@ -7,8 +7,15 @@ body {
 .scratchoff {
     width: 100%;
     height: auto;
+    display: inline-block;
+    text-align: right;
     
 }
+a:hover {
+background-color: yellow;
+}
+
+
 
 .title11 {
     font-family: helvetica, arial; 
