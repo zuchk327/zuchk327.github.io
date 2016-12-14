@@ -93,11 +93,11 @@ background-color: yellow;
 .circle {
 	width: 300px;
 	height: 300px;
-	background-color: white;
+	background-color: purple;
 	border-radius: 150px;
-	position:fixed;
-    top:300;
-    right:0;
+	position:absolute;
+    top:100px;
+    right:0px;
     margin:0;
 	
 }
