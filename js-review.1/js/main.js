@@ -38,13 +38,4 @@ $('.titlept2').each(
         $(this).html(spanText);
     });
 
-$("#status").mouseenter(function() {
-        if (clicked == true) {
-            $("#one").show();
-        }
-});
-$("#status").mouseleave(function() {
-    if (clicked == false) {
-        $("#one").hide();
-    }
-});
+
