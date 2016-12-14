@@ -29,3 +29,22 @@ $(".box").mousedown(function() {
    
     
 });
+
+
+$('.titlept2').each(
+    function(){
+        var text = $(this).text();
+        var spanText = text.replace('image','<span class="photo1.png">image</span>');
+        $(this).html(spanText);
+    });
+
+$("#status").mouseenter(function() {
+        if (clicked == true) {
+            $("#one").show();
+        }
+});
+$("#status").mouseleave(function() {
+    if (clicked == false) {
+        $("#one").hide();
+    }
+});

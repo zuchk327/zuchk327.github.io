@@ -9,7 +9,7 @@ $("button").click(function() {
 });
 
  
-for (var i = 0; i < 50; i++)  {
+for (var i = 0; i < 100; i++)  {
     $("body").append("<div class='dot'></div>");
 }
 
@@ -21,7 +21,7 @@ $(".dot").each(function() {
     $(this).html(counter);
 });
 
-$(".dot").click(function() {
-    $(this).css("background-color","lime");
+$(".dot").hover(function() {
+    $(this).css("background-color","black");
 });
 
