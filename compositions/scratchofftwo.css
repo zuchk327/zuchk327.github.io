@@ -13,7 +13,7 @@ body {
 .title11 {
     font-family: helvetica, arial; 
     font-size: 60px;
-    position: absolute;
+    position: fixed;
     top:0;
     right:0;
     margin:0;
@@ -26,7 +26,7 @@ body {
 .body {
     font-family: helvetica,arial;
     font-size:10px;
-    position:absolute;
+    position:fixed;
     top:300;
     right:0;
     margin:0;
@@ -38,17 +38,12 @@ body {
     font-size: 20px;
     color: white;
     text-decoration: none;
-    position:absolute;
+    position:fixed;
     top:320;
     right:0;
     margin:0;
     text-align: right;
     
-}
-
-a:hover {
-	background-color: yellow;
-	display: inline-block;
 }
 
 .title {
