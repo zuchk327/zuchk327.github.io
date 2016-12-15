@@ -18,9 +18,10 @@ body {
     	text-shadow: #11111;
     	text-align: left;
     	position: absolute;
-    	top: 293px;
+    	top: 263px;
     	left: 610px;
-    	font-size: 12px;
+    	font-size: 14px;
+    	
     
     }
  a:link {
@@ -33,6 +34,7 @@ a:hover {
 	display: inline-block;
 	text-decoration: underline;
 	color:black;
+	background-color: yellow;
 }
 
 a:active {
@@ -44,6 +46,7 @@ a:active {
 a:visted {
     text-decoration: none;
     color: black;
+    
     
 }
 
