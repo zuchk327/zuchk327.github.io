@@ -136,3 +136,102 @@ a:visted {
     transform: rotate(10deg);
     
 }
+
+.Z {
+    font-family: arial;
+    font-size: 290px;
+    font-weight: bolder;
+    position: absolute;
+    left: 790px;
+    top: 130px;
+    transform: rotate(40deg);
+    
+}
+
+.U {
+    font-family: arial;
+    font-size: 290px;
+    font-weight: bolder;
+    position: absolute;
+    left: 930px;
+    top: 220px;
+    transform: rotate(100deg);
+    
+}
+
+.C {
+    font-family: arial;
+    font-size: 370px;
+    font-weight: bolder;
+    position: absolute;
+    left: 860px;
+    top: 370px;
+    transform: rotate(130deg);
+    
+}
+
+.H {
+    font-family: arial;
+    font-size: 400px;
+    font-weight: bolder;
+    position: absolute;
+    left: 590px;
+    top: 350px;
+    transform: rotate(10deg);
+    
+}
+
+.O2 {
+    font-family: arial;
+    font-size: 400px;
+    font-weight: bolder;
+    position: absolute;
+    left: 400px;
+    top: 360px;
+    transform: rotate(60deg);
+    
+}
+
+.W {
+    font-family: arial;
+    font-size: 390px;
+    font-weight: bolder;
+    position: absolute;
+    left: 170px;
+    top: 610px;
+    transform: rotate(-60deg);
+    
+}
+
+.S {
+    font-family: arial;
+    font-size: 400px;
+    font-weight: bolder;
+    position: absolute;
+    left: 490px;
+    top: 660;
+    transform: rotate(30deg);
+    
+}
+
+.K2 {
+    font-family: arial;
+    font-size: 490px;
+    font-weight: bolder;
+    position: absolute;
+    left: 670px;
+    top: 670;
+    transform: rotate(-10deg);
+    
+}
+
+.I2 {
+    font-family: arial;
+    font-size: 490px;
+    font-weight: bolder;
+    position: absolute;
+    left: 1000px;
+    top: 700;
+    transform: rotate(-40deg);
+    
+}
