@@ -231,3 +231,94 @@ a:active {
     text-decoration: none;
     color: yellow;
 }
+
+.interview2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:650px;
+    right: 650px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+
+
+.interview {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:650px;
+    right: 652px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.dowhat2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:700px;
+    right: 700px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+.dowhat{
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:700px;
+    right: 702px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+.jquery2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:750px;
+    right: 750px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+.jquery {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:750px;
+    right: 752px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
