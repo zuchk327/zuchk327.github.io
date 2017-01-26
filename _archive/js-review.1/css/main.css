@@ -1,0 +1,324 @@
+.box{
+width:50px;
+background-color: #FF00CF;
+height:50px;
+display:inline-table;
+margin:4px;
+border-radius: 60px;
+cursor: pointer;
+
+}
+
+
+.title {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:300px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.titlept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:303px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+.title2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 350px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.title2pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 352px;
+    margin:-2;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title3 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 400px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title3pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 402px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title4 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 450px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title4pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 452px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.title5 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 500px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title5pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 502px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+.title6 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 550px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title6pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 552px;
+    margin:-2;
+    color: black;
+    text-align: right;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.homepage {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 600px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.homepagept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 602px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.interview2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:650px;
+    right: 650px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+
+
+.interview {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:650px;
+    right: 652px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.dowhat2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:700px;
+    right: 700px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+.dowhat{
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:700px;
+    right: 702px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+.jquery2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:750px;
+    right: 750px;
+    margin:-2;
+    color: white;
+    text-align: right;
+}
+.jquery {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:750px;
+    right: 752px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}

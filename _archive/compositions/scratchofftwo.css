@@ -1,0 +1,269 @@
+body {
+    margin:100px;
+    background-color:black;
+    border-left-width: 600px
+}
+
+.scratchoff {
+    width: 100%;
+    height: 100px
+    
+}
+
+.title11 {
+    font-family: helvetica, arial; 
+    font-size: 60px;
+    position: fixed;
+    top:0;
+    right:0;
+    margin:0;
+    color: yellow;
+    text-align: right;
+
+    
+}
+
+.body {
+    font-family: helvetica,arial;
+    font-size:10px;
+    position:fixed;
+    top:300;
+    right:0;
+    margin:0;
+    color:white;
+    text-align: right;
+}
+
+.backhome {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position:fixed;
+    top:320;
+    right:0;
+    margin:0;
+    text-align: right;
+    
+}
+
+.title {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:300px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.titlept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:303px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+.title2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 350px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.title2pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 352px;
+    margin:-2;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title3 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 400px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title3pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 402px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title4 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 450px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title4pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 452px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.title5 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 500px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title5pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 502px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+.title6 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 550px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title6pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 552px;
+    margin:-2;
+    color: black;
+    text-align: right;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.homepage {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 600px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.homepagept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 602px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}

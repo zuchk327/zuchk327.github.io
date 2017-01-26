@@ -1,0 +1,669 @@
+body {
+    margin:100px;
+    background-color:black;
+    border-left-width: 600px;
+    border-radius: 100%;
+    transition: all 10s;
+    animation-iteration-count: infinite;
+}
+
+body:hover {
+    margin:100px;
+    background-color: #097d73;
+    border-left-width: 600px;
+    
+    
+}
+
+.scratchoff {
+    width: 100%;
+    height: auto;
+    
+}
+
+.title11 {
+    font-family: helvetica, arial; 
+    font-size: 60px;
+    position: fixed;
+    top:0;
+    right:0;
+    margin:0;
+    color: yellow;
+    text-align: right;
+
+}
+
+
+
+
+
+
+
+
+
+
+.title22 {
+     font-family: helvetica, arial; 
+    font-size: 60px;
+    position: fixed;
+    top:0;
+    right:4;
+    margin:0;
+    color: blue;
+    text-align: right;
+ 
+}
+
+.title33 {
+     font-family: helvetica, arial; 
+    font-size: 60px;
+    position: fixed;
+    top:0;
+    right:8;
+    margin:0;
+    color: orange;
+    text-align: right;
+ 
+}
+
+.title44 {
+     font-family: helvetica, arial; 
+    font-size: 60px;
+    position: fixed;
+    top:0;
+    right:15;
+    margin:0;
+    color: white;
+    text-align: right;
+ 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+.circle {
+	width: 300px;
+	height: 300px;
+	background-color: white;
+	border-radius: 150px;
+	position:fixed;
+    top:300;
+    right:0;
+    margin:0;
+	
+}
+
+
+.circle:hover {
+    width: 300px;
+    height: 300px;
+    background-color: orange;
+    line-height: 300px;
+    color: orange;
+}
+
+.circle:active {
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+    line-height: 300px;
+    color: orange;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circle2 {
+    width: 40px;
+	height: 40px;
+	background-color: white;
+	position:fixed;
+    top:300;
+    right:0;
+    margin:0;
+    border-radius: 100%;
+    transition: all 2s;
+    
+}
+.circle2:hover {
+    width: 40px;
+    height: 40px;
+    background-color: green;
+    line-height: 300px;
+    color: orange;
+}
+
+.circle2:active {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    line-height: 300px;
+    color: orange;
+}
+
+
+
+
+.circle3 {
+    width: 70px;
+	height: 70px;
+	background-color: blue;
+	border-radius: 150px;
+	position:fixed;
+    top:360;
+    right:400;
+    margin:0;
+}
+
+.circle3:hover {
+    width: 70px;
+    height: 70px;
+    background-color: green;
+    line-height: 300px;
+    
+}
+
+.circle3:active {
+    width: 70px;
+    height: 70px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
+    .circle4 {
+    width: 100px;
+	height: 100px;
+	background-color: orange;
+	border-radius: 150px;
+	position:fixed;
+    top:360;
+    right:600;
+    margin:0;
+    
+}
+
+.circle4:hover {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    line-height: 300px;
+    
+}
+
+.circle4:active {
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
+.circle5 {
+    width: 100px;
+	height: 100px;
+	background-color: white;
+	border-radius: 150px;
+	position:fixed;
+    top:100;
+    right:660;
+    margin:0;
+    
+}
+
+.circle5:hover {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle5:active {
+    width: 100px;
+    height: 100px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle6 {
+    width: 40px;
+	height: 40px;
+	background-color: blue;
+	border-radius: 150px;
+	position:fixed;
+    top:50;
+    right:800;
+    margin:0;
+    
+}
+
+.circle6:hover {
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    line-height: 300px;
+    
+}
+
+.circle6:active {
+    width: 40px;
+    height: 40px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
+.circle7 {
+    width: 80px;
+	height: 80px;
+	background-color: orange;
+	border-radius: 150px;
+	position:fixed;
+    top:30;
+    right:400;
+    margin:0;
+  
+}
+
+.circle7:hover {
+    width: 80px;
+    height: 80px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle7:active {
+    width: 80px;
+    height: 80px;
+    background-color: green;
+    line-height: 300px;
+    
+}
+
+.circle8 {
+    width: 30px;
+	height: 30px;
+	background-color: yellow;
+	border-radius: 150px;
+	position:fixed;
+    top:400;
+    right:800;
+    margin:0;
+    
+}
+
+.circle8:hover {
+    width: 30px;
+    height: 30px;
+    background-color: grey;
+    line-height: 300px;
+    
+}
+
+.circle8:active {
+    width: 30px;
+    height: 30px;
+    background-color: blue;
+    line-height: 300px;
+    
+}
+
+.circle9 {
+    width: 30px;
+	height: 30px;
+	background-color: blue;
+	border-radius: 150px;
+	position:fixed;
+    top:300;
+    right:500;
+    margin:0;
+    
+}
+
+.circle9:hover {
+    width: 30px;
+    height: 30px;
+    background-color: white;
+    line-height: 300px;
+    
+}
+
+.circle9:active {
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
+.circle10 {
+    width: 20px;
+	height: 20px;
+	background-color: orange;
+	border-radius: 150px;
+	position:fixed;
+    top:200;
+    right:500;
+    margin:0;
+ 
+}
+
+.circle10:hover {
+    width: 20px;
+    height: 20px;
+    background-color: purple;
+    line-height: 300px;
+    
+}
+
+.circle10:active {
+    width: 20px;
+    height: 20px;
+    background-color: blue;
+    line-height: 300px;
+    
+}
+
+.circle12 {
+    width: 90px;
+	height: 90px;
+	background-color: white;
+	border-radius: 150px;
+	position:fixed;
+    top: 350;
+    right:900;
+    margin:0;
+}
+
+.circle12 {
+    width: 90px;
+	height: 90px;
+	background-color: gray;
+	border-radius: 150px;
+	position:fixed;
+    top:500;
+    right:900;
+    margin:0;
+}
+.circle12:hover {
+    width: 90px;
+    height: 90px;
+    background-color: green;
+    line-height: 300px;
+    
+}
+
+.circle13:active {
+    width: 20px;
+    height: 20px;
+    background-color: yellow;
+    line-height: 300px;
+    
+}
+
+.backhome {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    position:absolute;
+    top:2300px;
+    right:65;
+    margin:0;
+    text-align: right;
+}
+a:hover {
+    background-color: blue;
+    
+}
+
+.title {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:300px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.titlept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:300px;
+    right:303px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+
+.title2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 350px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+
+.title2pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:350px;
+    right: 352px;
+    margin:-2;
+    color: black;
+    text-align: right;
+    text-decoration: none;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title3 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 400px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title3pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:400px;
+    right: 402px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+
+.title4 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 450px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title4pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:450px;
+    right: 452px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.title5 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 500px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title5pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:500px;
+    right: 502px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+.title6 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 550px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.title6pt2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:550px;
+    right: 552px;
+    margin:-2;
+    color: black;
+    text-align: right;
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
+
+.homepage {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 600px;
+    margin:-2;
+    color: white;
+    text-align: right;
+ 
+}
+.homepagept2 {
+     font-family: helvetica, arial, bold;
+    font-size: 20px;
+    position: absolute;
+    top:600px;
+    right: 602px;
+    margin:-2;
+    color: black;
+    text-align: right;
+ 
+}
+a:link {
+    text-decoration: none;
+    color: black;
+}
+a:active {
+    text-decoration: none;
+    color: yellow;
+}
