@@ -18,7 +18,7 @@
     font-kerning: 10;
     position: fixed;
     left: 20px;
-    top: 220px;
+    top: 210px;
 
 }
 
@@ -26,7 +26,7 @@
 .space {
     font-family: "Work Sans";
     font-size: 20px;
-    position: fixed;
+    position: absolute;
     left: 65px;
     top: 100px;
     z-index: 1;
@@ -54,7 +54,7 @@ a:visted {
 .projecttwo {
     font-family: "Work Sans";
     font-size: 19px;
-    position: fixed;
+    position: absolute;
     left: 202px;
     top: 133px;
     z-index: 3;
@@ -104,7 +104,7 @@ a:visted {
     width: 90px;
     height: 30px;
     background-color: white;
-    position: fixed;
+    position: absolute;
     left: 200px;
     top: 130px;
     z-index: 1;
@@ -113,7 +113,7 @@ a:visted {
     width: 90px;
     height: 30px;
     background-color: black;
-    position: fixed;
+    position: absolute;
     left: 190px;
     top: 140px;
     
