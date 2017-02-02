@@ -155,10 +155,6 @@ a:hover {
     text-decoration: none;
 
 }
-a:link {
-    color: white;
-    text-decoration: none;
-}
 a:visted {
     text-decoration: none;
     color: white;
@@ -277,13 +273,20 @@ a:visted {
     left: 20px;
     top: 220px;
     line-height: 60px;
-    font-color: black;
+    color: black;
 }
 a:linked {
-    font-color: black;
+    color: black;
+}
+a:visted {
+    color:black;
 }
 a:hover {
-    font-color:black;
+    color:black;
+}
+
+a:active {
+    color:black;
 }
 
 
