@@ -4,21 +4,19 @@
       <title>
         Karolina Zuchowski
       </title>
-          
           <link href="assets/css/styles.css" media="all" rel="stylesheet" />
           <link rel="shortcut icon" href="" />
-          
   </head>
 
      <body>
-     <div class="background"></div>
-
-                
-                <div class="type"> Karolina <br/> Zuchowski </div>
+       <div class="wrapper">
+          <div class="background"></div>
+               <div class="type"> Karolina <br/> Zuchowski </div>
 
 
 
                 <div class="space"><a href="Space/index.html">Space</a> </li> </div>
+
                           <a href="SPACE/sketches/sketchone.pdf">Sketch One</a> 
                           <a href="SPACE/sketches/sketchtwo.pdf">Sketch Two</a> 
                           <a href="SPACE/sketches/sketchthree.pdf">Sketch Three</a> 
@@ -30,8 +28,10 @@
 
                  <!-- Class Notes 2/2/2017
                 body { 
+
                     font-family: helvetica; 
                     line-height: 20px;
+                    font-size:0px;
                     letter-spacing: 14px;
                 }
 
@@ -51,6 +51,90 @@
                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^ ORDER
                 }
 
+                <div>
+                <h2> Studio> </h2>
+                <p>some text about studio </p>
+                <h2>space></h2>
+
+
+                you can measure the pixels with a screenshot
+
+                FOOTER:
+
+                <div>
+                Footer 
+                </div>
+
+                margin: 25px 50px 25 px 25 px
+                top, left, bottom, right
+
+                .wrapper {
+                width: 960px;
+                background-color: red;
+                z-index: 5;
+                margin: 0 auto;
+              
+                when building your grids, (960px)
+                30 px are for bleed space so the amount of grid you can use is 930 px
+                so 15px space on each side
+
+
+                .header, .footer {
+                width: 930px;
+                background: #ffffff;
+                margin: 0 15px;
+                font-size: 16px;
+                line-height: 20px;
+                }
+
+                  .studio, .lab {
+                  display: inline-block;
+                  }
+                  TO MAKE SURE THAT THERE IS NO SPACE IN THE IN-LINE BLOCK. MAKE SURE THAT THERE IS NO 
+                  "font-size" in the body and just make sure there is "font-size" for the rest of the divs 
+                  that are not included. 
+
+                VVVVVV YOU CAN FIT 6 ACROSS
+                .c1 {
+                width: 130px;
+                background: #ff0;
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 15px 30px 15px;
+                display: inline-block;
+                }
+                
+                vvvvvvv YOU CAN FIT 3 ACROSS
+                .c2 {
+                width: 290px;
+                background: #ff0;
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 15px 30px 15px;
+                display: inline-block;
+                }
+
+              
+                VVVVVvVVV you can fit 2 of these
+                .c3 {
+                width: 450px;
+                background: #ff0;
+                font-size: 16px;
+                line-height: 20px;
+                margin: 0 15px 30px 15px;
+                display: inline-block;
+                }\
+                <div class=" you can add multiple"></div>
+
+                .c1, .c2, .c3, .c4, .c5, .c6 {
+                HERE YOU CAN ADD SOMETHING THAT WILL AFFECT EVERYTHING ABOVE, 
+                SO YOU DON'T AHVE TO TYPE IT 6 TIMES OVER
+                }
+
+
+
+
+
 
 
                  -->
@@ -67,9 +151,9 @@
        
 
 
-
+                <div class="footer">Footer</div>
                
     <script src="assets/js/app.js"></script>
-
+</div>
   </body>
 </html>

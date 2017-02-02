@@ -1,3 +1,14 @@
+* {
+
+}
+
+.wrapper {
+    background-color: red;
+    z-index: 5;
+    margin: 0 auto;
+}
+
+
 .background{
     width: 1600px;
     height: 300px;
