@@ -1,3 +1,6 @@
+* {
+    cursor: pointer;
+}
 .background{
     width: 1600px;
     height: 300px;
