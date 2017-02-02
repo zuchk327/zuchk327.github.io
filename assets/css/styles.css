@@ -1,0 +1,124 @@
+.background{
+    width: 1600px;
+    height: 300px;
+    background-color: #F9B60D;
+    position: fixed;
+    margin: -25px;
+
+}
+.p {
+    position: fixed;
+    top:400px;
+    left: 40px;
+}
+
+.type {
+    font-family: "Work Sans";
+    font-size: 60px;
+    font-kerning: 10;
+    position: fixed;
+    left: 20px;
+    top: 220px;
+
+}
+
+
+.space {
+    font-family: "Work Sans";
+    font-size: 20px;
+    position: fixed;
+    left: 65px;
+    top: 100px;
+    z-index: 1;
+
+}
+a:active {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+
+}
+a:link {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:visted {
+    text-decoration: none;
+    color: #03C9EA;
+}
+
+
+.projecttwo {
+    font-family: "Work Sans";
+    font-size: 19px;
+    position: fixed;
+    left: 202px;
+    top: 133px;
+    z-index: 3;
+
+}
+a:active {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+
+}
+a:link {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:visted {
+    text-decoration: none;
+    color: #03C9EA;
+}
+
+
+.block {
+    width: 90px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 40px;
+    top: 110px;
+}
+
+.block2 {
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    left: 50px;
+    top: 100px;
+}
+
+
+
+
+.block3 {
+    width: 90px;
+    height: 30px;
+    background-color: white;
+    position: fixed;
+    left: 200px;
+    top: 130px;
+    z-index: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
