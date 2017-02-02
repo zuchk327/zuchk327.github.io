@@ -109,6 +109,42 @@ a:visted {
 
 }
 
+.proposal2 {
+     font-family: "Work Sans";
+    font-size: 19px;
+    position: absolute;
+    left: 100px;
+    top: 532px;
+    z-index: 5;
+
+}
+a:active {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+
+}
+a:link {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:visted {
+    text-decoration: none;
+    color: #03C9EA;
+
+}
+
+
+
+
+
+
+
+
+
 .presentation {
     font-family: "Work Sans";
     font-size: 17px;
@@ -216,6 +252,27 @@ a:visted {
     position: absolute;
     left: 190px;
     top: 440px;
+    
+}
+
+.block9 {
+    width: 114px;
+    height: 30px;
+    background-color: #F9B60D;
+    position: absolute;
+    left: 95px;
+    top: 530px;
+    z-index: 1;
+    
+}
+
+.block10{
+    width: 114px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 85px;
+    top: 540px;
     
 }
 
