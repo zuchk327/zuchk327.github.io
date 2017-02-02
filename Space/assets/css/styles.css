@@ -1,6 +1,24 @@
 * {
     cursor: pointer;
 }
+
+
+a:link {
+    color: black;
+    text-decoration: none;
+}
+a:visted {
+    text-decoration: none;
+    color: #03C9EA;
+
+}
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+
+}
+
+
 .background{
     width: 1600px;
     height: 300px;
@@ -27,23 +45,20 @@
     z-index: 1;
 
 }
-a:active {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
 
+.type1 {
+
+    font-family: "Work Sans";
+    font-size: 60px;
+    font-kerning: 10;
+    position: fixed;
+    left: 20px;
+    top: 220px;
+    line-height: 60px;
+    color: black;
 }
-a:link {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:visted {
-    text-decoration: none;
-    color: #03C9EA;
-}
+
+
 
 
 .projecttwo {
@@ -55,23 +70,7 @@ a:visted {
     z-index: 3;
 
 }
-a:active {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
 
-}
-a:link {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:visted {
-    text-decoration: none;
-    color: #03C9EA;
-}
 
 .proposal1 {
      font-family: "Work Sans";
@@ -82,24 +81,7 @@ a:visted {
     z-index: 3;
 
 }
-a:active {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
 
-}
-a:link {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:visted {
-    text-decoration: none;
-    color: #03C9EA;
-
-}
 
 .proposal2 {
      font-family: "Work Sans";
@@ -110,24 +92,7 @@ a:visted {
     z-index: 5;
 
 }
-a:active {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
 
-}
-a:link {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:visted {
-    text-decoration: none;
-    color: #03C9EA;
-
-}
 
 
 
@@ -145,19 +110,6 @@ a:visted {
     top: 364px;
     z-index: 3;
 
-}
-a:active {
-    color: white;
-    text-decoration: none;
-}
-a:hover {
-    color: white;
-    text-decoration: none;
-
-}
-a:visted {
-    text-decoration: none;
-    color: white;
 }
 
 
@@ -264,30 +216,6 @@ a:visted {
     
 }
 
-.type1 {
-
-    font-family: "Work Sans";
-    font-size: 60px;
-    font-kerning: 10;
-    position: fixed;
-    left: 20px;
-    top: 220px;
-    line-height: 60px;
-    color: black;
-}
-a:linked {
-    color: black;
-}
-a:visted {
-    color:black;
-}
-a:hover {
-    color:black;
-}
-
-a:active {
-    color:black;
-}
 
 
 
