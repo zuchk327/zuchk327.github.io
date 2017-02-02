@@ -105,7 +105,7 @@ a:visted {
     color: white;
 }
 
-}
+
 
 .block {
     width: 90px;
@@ -147,7 +147,7 @@ a:visted {
     
 }
 
-.block4 {
+.block5 {
     width: 114px;
     height: 30px;
     background-color: #F9B60D;
@@ -157,7 +157,7 @@ a:visted {
     z-index: 1;
 }
 
-.block5 {
+.block6 {
     width: 114px;
     height: 30px;
     background-color: black;
