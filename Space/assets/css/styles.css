@@ -17,18 +17,6 @@
     left: 40px;
 }
 
-.type {
-    font-family: "Work Sans";
-    font-size: 60px;
-    font-kerning: 10;
-    position: fixed;
-    left: 20px;
-    top: 220px;
-    line-height: 60px;
-    font-color: black;
-
-}
-
 
 .space {
     font-family: "Work Sans";
@@ -280,6 +268,23 @@ a:visted {
     
 }
 
+.type1 {
+
+    font-family: "Work Sans";
+    font-size: 60px;
+    font-kerning: 10;
+    position: fixed;
+    left: 20px;
+    top: 220px;
+    line-height: 60px;
+    font-color: black;
+}
+a:linked {
+    font-color: black;
+}
+a:hover {
+    font-color:black;
+}
 
 
 
