@@ -1,7 +1,7 @@
 .background{
     width: 1600px;
     height: 300px;
-    background-color: #0B279B;
+    background-color: #F9B60D;
     margin: -25px;
     position: relative;
     overflow: hidden;
@@ -15,12 +15,13 @@
 }
 
 .type {
-    font-family: "Work Sans";
+     font-family: "Work Sans";
     font-size: 60px;
     font-kerning: 10;
     position: fixed;
     left: 20px;
-    top: 270px;
+    top: 220px;
+    line-height: 60px;
 
 }
 
@@ -78,6 +79,34 @@ a:link {
 a:visted {
     text-decoration: none;
     color: #03C9EA;
+}
+
+.proposal1 {
+     font-family: "Work Sans";
+    font-size: 19px;
+    position: absolute;
+    left: 209px;
+    top: 432px;
+    z-index: 3;
+
+}
+a:active {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+
+}
+a:link {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:visted {
+    text-decoration: none;
+    color: #03C9EA;
+
 }
 
 .presentation {
@@ -172,12 +201,26 @@ a:visted {
 .block7 {
     width: 114px;
     height: 30px;
-    background-color: black;
+    background-color: #F9B60D;
     position: absolute;
-    left: 600px;
-    top: 70px;
+    left: 200px;
+    top: 430px;
+    z-index: 1;
     
 }
+
+.block8{
+    width: 114px;
+    height: 30px;
+    background-color: black;
+    position: absolute;
+    left: 190px;
+    top: 440px;
+    
+}
+
+
+
 
 
 
