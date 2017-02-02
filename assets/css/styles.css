@@ -62,23 +62,23 @@ a:visted {
     z-index: 3;
 
 }
-a:active {
-    color: #03C9EA;
-    text-decoration: none;
-}
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
-
-}
 a:link {
-    color: #03C9EA;
+    color: yellow;
     text-decoration: none;
 }
 a:visted {
     text-decoration: none;
     color: #03C9EA;
 }
+a:hover {
+    color: #03C9EA;
+    text-decoration: none;
+}
+a:active {
+    color: #03C9EA;
+    text-decoration: none;
+}
+
 
 
 .block {
