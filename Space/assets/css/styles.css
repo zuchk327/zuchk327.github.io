@@ -1,6 +1,5 @@
 * {
-    cursor: pointer;
-}
+    }
 
 a:link {
     color: black;
@@ -14,6 +13,8 @@ a:visted {
 a:hover {
     color: #03C9EA;
     text-decoration: none;
+    cursor: pointer;
+}
 
 }
 a:active {
