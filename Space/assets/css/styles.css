@@ -40,7 +40,7 @@ a:active {
 
 
 .space {
-    font-family: "Work Sans",Helvetica;
+    font-family: "Work Sans",Helvetica, arial;
     font-size: 20px;
     position: absolute;
     left: 65px;
@@ -55,7 +55,7 @@ a{
 
 .type1 {
 
-    font-family: "Work Sans";
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 60px;
     font-kerning: 10;
     position: fixed;
@@ -70,7 +70,7 @@ a{
 
 
 .projecttwo {
-    font-family: "Work Sans";
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 19px;
     position: absolute;
     left: 202px;
@@ -83,7 +83,7 @@ a{
 
 
 .proposal1 {
-     font-family: "Work Sans";
+     font-family: "Work Sans", Helvetica, arial ;
     font-size: 19px;
     position: absolute;
     left: 209px;
@@ -96,7 +96,7 @@ a{
 
 
 .proposal2 {
-     font-family: "Work Sans";
+     font-family: "Work Sans", Helvetica, arial;
     font-size: 19px;
     position: absolute;
     left: 100px;
@@ -110,7 +110,7 @@ a{
 
 
 .presentation {
-    font-family: "Work Sans";
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 17px;
     position: absolute;
     left: 72px;

@@ -39,7 +39,7 @@ a:active {
 }
 
 .type {
-    font-family: "Work Sans", Helvetica;
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 60px;
     font-kerning: 10;
     position: fixed;
@@ -51,7 +51,7 @@ a:active {
 
 
 .space {
-    font-family: "Work Sans", Helvetica;
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 20px;
     position: absolute;
     left: 65px;
@@ -65,7 +65,7 @@ a:link {
 
 
 .projecttwo {
-    font-family: "Work Sans", Helvetica;
+    font-family: "Work Sans", Helvetica, arial;
     font-size: 19px;
     position: absolute;
     left: 202px;
