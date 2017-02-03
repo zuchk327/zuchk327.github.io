@@ -40,7 +40,7 @@ a:active {
 
 
 .space {
-    font-family: "Work Sans";
+    font-family: "Work Sans",Helvetica;
     font-size: 20px;
     position: absolute;
     left: 65px;
