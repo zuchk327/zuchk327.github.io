@@ -10,7 +10,7 @@
     font-family: monospace;
     font-size: 10px;
     color: red;  
-    margin: 10px 0 0 30px;
+    margin: 50px 0 0 30px;
 
 }
 
@@ -20,7 +20,7 @@
     color: black;
     position: fixed;
     left: 30px;
-    top: 30px;
+    top: 20px;
 
 }
 
@@ -29,18 +29,27 @@
     font-family: monospace;
     font-size: 10px;
     position: fixed;
-    top: 30px;
+    top: 20px;
     left: 80px;
+
+}
+.c {
+    position: relative;
+    top: 40px;
+    font-family: monospace;
+    font-size: 10px;
+
 
 }
 
 .c1 {
     background: red;
     display: inline-block;
-    margin: 30px 0px 0px 30px;
-    padding: 0 55px 0 30px;
+    padding: 0 30px 0 30px;
     font-size: 10px;
+    margin: 0 0 0 30px;
 }
+
 
 
 
