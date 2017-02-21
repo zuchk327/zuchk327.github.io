@@ -1,55 +1,142 @@
 
+a {
+    text-decoration: none;
+    color: black;
+}
+a:hover {
+    color: red;
+}
 .background {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    width: 2050px;
+    height: auto;
+    overflow: hidden;
+    transform: translate3d(0, 0, 0);
 }
 
 
 .collection{
     font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
     font-size: 10px;
     color: red;  
-    margin: 50px 0 0 30px;
-
-}
-
-.dewey {
-    font-family: monospace;
-    font-size: 10px;
-    color: black;
     position: fixed;
     left: 30px;
-    top: 20px;
+    top: 15px;
 
 }
 
 
-.author {
-    font-family: monospace;
-    font-size: 10px;
-    position: fixed;
-    top: 20px;
-    left: 80px;
-
-}
 .c {
     position: relative;
     top: 40px;
     font-family: monospace;
-    font-size: 10px;
+    font-size: 6px;
+    letter-spacing: 1px;
 
 
 }
 
 .c1 {
-    background: red;
     display: inline-block;
-    padding: 0 30px 0 30px;
+    padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
+    line-height: 15px;
+
 }
 
+.c2 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: -2px 0 0 30px;
+    line-height: 15px;
+    
+}
+.c3 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c4 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c5 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c6 {
+    display: inline-block;
+    position: relative;
+   top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c7 {
+    display: inline-block;
+    position: relative;
+   top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+
+.c8 {
+    display: inline-block;
+    position: relative;
+top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c9 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
+.c10 {
+    display: inline-block;
+    position: relative;
+    top: -5640px;
+    padding: 0 5px 0 0;
+    font-size: 10px;
+    margin: 0 0 0 30px;
+    line-height: 15px;
+    
+}
 
 
 
