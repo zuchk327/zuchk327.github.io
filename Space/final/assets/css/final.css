@@ -8,7 +8,7 @@ a:hover {
 }
 .background {
     width: 2050px;
-    height: auto;
+    height: 6000px;
     overflow: hidden;
     transform: translate3d(0, 0, 0);
 }
@@ -21,8 +21,8 @@ a:hover {
     font-size: 10px;
     color: red;  
     position: fixed;
-    left: 30px;
-    top: 15px;
+    left: 37px;
+    top: 25px;
 
 }
 .collection a {
@@ -32,6 +32,32 @@ color: red;
 color: black;
 }
 
+.title {
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    color: black;  
+
+}
+
+
+.d1 {
+    position: fixed;
+    top: 60px;
+    left: 30px;
+}
+
+.d2 {
+    position: fixed;
+    top: 60px;
+    left: 230px;
+}
+.d3 {
+    position: fixed;
+    top: 60px;
+    left: 438px;
+}
 
 
 .c {
@@ -50,23 +76,25 @@ color: black;
     font-size: 10px;
     margin: 0 0 0 30px;
     line-height: 15px;
+    position: relative;
+    top: -137px;
 
 }
 
 .c2 {
     display: inline-block;
     position: relative;
-    top: -5640px;
+    top: 58px;
     padding: 0 5px 0 0;
     font-size: 10px;
-    margin: -2px 0 0 30px;
+    margin: 0 0 0 30px;
     line-height: 15px;
     
 }
 .c3 {
     display: inline-block;
     position: relative;
-    top: -5640px;
+    top: -77px;
     padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
