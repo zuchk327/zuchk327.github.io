@@ -25,6 +25,13 @@ a:hover {
     top: 15px;
 
 }
+.collection a {
+color: red;
+}
+.collection a:hover {
+color: black;
+}
+
 
 
 .c {
