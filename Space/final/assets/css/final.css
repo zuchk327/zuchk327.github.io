@@ -148,7 +148,7 @@ color: black;
 .c7 {
     display: inline-block;
     position: relative;
-   top: -5640px;
+   top: 0px;
     padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
@@ -159,7 +159,7 @@ color: black;
 .c8 {
     display: inline-block;
     position: relative;
-top: -5640px;
+top: 0px;
     padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
@@ -169,7 +169,7 @@ top: -5640px;
 .c9 {
     display: inline-block;
     position: relative;
-    top: -5640px;
+    top: 0px;
     padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
@@ -179,7 +179,7 @@ top: -5640px;
 .c10 {
     display: inline-block;
     position: relative;
-    top: -5640px;
+    top: 0px;
     padding: 0 5px 0 0;
     font-size: 10px;
     margin: 0 0 0 30px;
