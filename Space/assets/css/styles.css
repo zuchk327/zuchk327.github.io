@@ -55,7 +55,8 @@ a{
 
 .type1 {
 
-    font-family: "Work Sans", Helvetica, arial;
+    font-family: Helvetica, arial;
+    font-weight: bold;
     font-size: 60px;
     font-kerning: 10;
     position: fixed;
@@ -70,7 +71,8 @@ a{
 
 
 .projecttwo {
-    font-family: "Work Sans", Helvetica, arial;
+    font-family: Helvetica, arial;
+    font-weight: bold;
     font-size: 19px;
     position: absolute;
     left: 202px;
@@ -83,7 +85,8 @@ a{
 
 
 .proposal1 {
-     font-family: "Work Sans", Helvetica, arial ;
+     font-family:  Helvetica, arial ;
+    font-weight: bold;
     font-size: 19px;
     position: absolute;
     left: 209px;
@@ -96,7 +99,8 @@ a{
 
 
 .proposal2 {
-     font-family: "Work Sans", Helvetica, arial;
+     font-family:  Helvetica, arial;
+    font-weight: bold;
     font-size: 19px;
     position: absolute;
     left: 100px;
@@ -110,7 +114,8 @@ a{
 
 
 .presentation {
-    font-family: "Work Sans", Helvetica, arial;
+    font-family: Helvetica, arial;
+    font-weight: bold;
     font-size: 17px;
     position: absolute;
     left: 72px;
