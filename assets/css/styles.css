@@ -39,7 +39,7 @@ a:active {
 }
 
 .type {
-    font-family: "Work Sans", Helvetica, arial;
+    font-family: Helvetica, arial;
     font-size: 60px;
     font-kerning: 10;
     position: fixed;
