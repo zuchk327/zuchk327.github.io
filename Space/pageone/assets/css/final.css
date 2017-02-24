@@ -69,6 +69,11 @@ z-index: 1;
     top: 47%;
     transform: rotate(-90deg);
     z-index: 2;
+    color: black;
+}
+.deweyleft:hover {
+      color: red;
+    cursor: pointer;
 }
 
 .leftbox {
@@ -107,8 +112,12 @@ z-index: 1;
     left: 10%;
     transform: rotate(-90deg);
     z-index: 2;
+    color:black;
 }
-
+.deweyright:hover {
+    color: red;
+    cursor: pointer;
+}
 
 
 
