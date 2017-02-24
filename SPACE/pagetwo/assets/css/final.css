@@ -32,8 +32,9 @@ z-index: 1;
 .booktitle {
     font-family: monospace;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 35px;
     position: fixed;
+    text-align: center;
     left: 50%;
     top: 30%;
     transform: translate(-50%, -50%);
