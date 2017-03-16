@@ -1,0 +1,146 @@
+body {
+	margin: 30px;
+	font-size: 0px;
+	padding: 0;  }
+
+.wrapper {
+	display: inline-block;
+	margin: 0 15px 60px 15px;
+}
+
+.green { background-color: #00ff00 }
+.red { background-color: #ff0000 }
+.blue { background-color: #0000ff }
+
+
+.capa {
+
+	width: 200px;
+	height: 320px;
+	margin: 0;
+	font-size: 0;
+	opacity: .50;
+	position: relative;
+	display: inline-block;
+
+	
+}
+.one{
+	position: absolute;
+     top: calc(6%);
+    left: calc(10%);
+}
+.serif {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 35px solid #00ff00;
+	border-bottom: 31px solid #00ff00;
+	transform: rotate(-50deg);
+}
+.bar {
+	width: 30px;
+	height: 220px;	
+}
+.bar2 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 61px solid transparent;
+}
+.bar3 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 96px solid transparent;
+
+}
+
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-top: 1px solid transparent;
+    border-right: 20px solid #00ff00;
+    border-bottom: 31px solid #00ff00;
+    transform: rotate(50deg);
+
+}
+.nine {
+	position: absolute;
+	top: calc(27%);
+    left: calc(76%);
+}
+
+.ten {
+	position: absolute;
+	left: calc(75%);
+    top: calc(32%);
+}
+.eleven {
+	position: relative;
+	left: calc(83%);
+    top: calc(38%);
+}
+
+.tweleve {
+	position: relative;
+	left: calc(43%);
+    top: calc(42%);
+}
+.thirteen {
+	position: relative;
+	left: calc(29%);
+    top: calc(42%);
+
+}
+.three {
+	position: absolute;
+	left: calc(17%);
+	top: calc(12%);
+}
+.two {
+	position: absolute;
+	left: calc(22%);
+	top: calc(74%);
+}
+
+.four {
+	position: absolute;
+	left: calc(76%);
+    top: calc(12%);
+}
+.five {
+	position: absolute;
+	top: calc(5%);
+    left: calc(69%);
+}
+
+.six {
+	position: absolute;
+	top: calc(74%);
+    left: calc(81%);
+}
+
+.bar-thin {
+	width: 112px;
+    height: 19px;
+    transform: rotate(-30deg);
+}
+
+.seven {
+	position: absolute;
+    top: calc(11%);
+    left: calc(25%);
+
+}
+
+.eight {
+	position: absolute;
+    top: calc(39%);
+    left: calc(26%);
+}
+
+
+
+
+
+
