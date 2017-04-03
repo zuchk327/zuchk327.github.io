@@ -1,52 +1,143 @@
 * {
+    color: black;
+    text-decoration: none;
     
 }
 
-a:link {
-    color: black;
-    text-decoration: none;
-}
-a:visted {
-    text-decoration: none;
-    color: #03C9EA;
+.wrapper {
+    margin: 40px 80px 80px 20%;
 
 }
-a:hover {
-    color: #03C9EA;
-    text-decoration: none;
-    cursor: pointer;
 
-}
-a:active {
-    color:black;
+body {
+    display: inline;
+    font-family: helvetica, arial;
+    font-size: 12px;
+
 }
 
 
 
 
-.background{
-    width: 1600px;
-    height: 300px;
-    background-color: #F9B60D;
-    position: fixed;
-    margin: -25px;
-
-}
 .p {
     position: fixed;
     top:400px;
     left: 40px;
 }
 
-.type {
+.name {
     font-family: Helvetica, arial, san-serif;
-    font-weight:bold;
-    font-size: 60px;
-    font-kerning: 10;
-    position: fixed;
-    left: 20px;
-    top: 220px;
-    line-height: 60px;
+    font-size: 14px;
+    display: inline;
+    color: #0000ff;
+    
+
+}
+.name:hover {
+    cursor: progress;
+}
+
+
+.major{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: none;
+    font-size: 14px;
+    display: inline;
+
+    
+
+}
+.major:hover {
+    font-family:  cursive;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.school{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 12px;
+    position: relative;
+    width: 500px;
+    height: 500px;
+    display: inline;
+    color: black;
+    cursor: move;
+
+
+}
+.school:hover {
+    font-family:  "Comic Sans MS" ;
+    background-color: transparent;
+    color:black;
+    cursor: move;
+    
+}
+.year1{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: move;
+    left: 84px;
+
+}
+.year2{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: help;
+    left:134px;
+
+}
+.year2-1{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: help;
+    left:131px;
+
+}
+.year2-2{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: help;
+    left:121px;
+
+}
+.year3{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: move;
+    left: 135px;
+
+}
+.year4{
+    font-family: Helvetica, arial, san-serif;
+    text-decoration: underline;
+    font-size: 14px;
+    position: relative;
+    display: inline;
+    color: black;
+    cursor: move;
+    left: 135px;
 
 }
 
@@ -78,69 +169,17 @@ a:link {
 
 
 
-.block {
-    width: 90px;
-    height: 30px;
-    background-color: black;
-    position: absolute;
-    left: 40px;
-    top: 110px;
-}
-
-.block2 {
-    width: 90px;
-    height: 30px;
-    background-color: white;
-    position: absolute;
-    left: 50px;
-    top: 100px;
+.title {
+    text-decoration: none;
+    color: #0000ff;
 }
 
 
+.title2 {
+    text-decoration: none;
+    color: #ff0000;
 
-
-.block3 {
-    width: 90px;
-    height: 30px;
-    background-color: white;
-    position: absolute;
-    left: 200px;
-    top: 130px;
-    z-index: 1;
 }
-.block4 {
-    width: 90px;
-    height: 30px;
-    background-color: black;
-    position: absolute;
-    left: 190px;
-    top: 140px;
-    
-}
-
-.block5{
-    width: 90px;
-    height: 30px;
-    background-color: white;
-    position: absolute;
-    left: 200px;
-    top: 130px;
-    z-index: 1;
-}
-.block6 {
-    width: 90px;
-    height: 30px;
-    background-color: black;
-    position: absolute;
-    left: 190px;
-    top: 140px;
-    
-}
-
-.class {
-    top: 400px;
-}
-
 
 
 
