@@ -1,0 +1,451 @@
+body {
+	margin: 10px;
+	font-size: 0px;
+	padding: 0;  }
+
+.wrapper {
+	display: inline-block;
+	margin: 0 15px 0px 15px;
+}
+
+.green { background-color: #00ff00 }
+.red { background-color: #ff0000 }
+.blue { background-color: #0000ff }
+
+
+.capa {
+
+	width: 200px;
+	height: 320px;
+	margin: 0;
+	font-size: 0;
+	opacity: .50;
+	position: relative;
+	display: inline-block;
+
+	
+}
+.smaller{
+    transform: scale(.7);
+    width: 2000px;
+    position: absolute;
+    left: -200px;
+}
+.space {
+    width: 300px;
+    display: inline-block;
+}
+.title {
+    display: inline-block;
+    transform: scale(.4);
+    color: #0000ff;
+    margin: 3px;
+    width: 3000px;
+    position: absolute;
+    left: -600px;
+}
+
+.width{
+   padding: 0px 33px 0px 3px;
+    display: inline-block;
+}
+
+.width2{
+   padding: 0px 31px 0px 21px;
+   display: inline-block;
+}
+
+
+.one{
+	position: absolute;
+     top: calc(6%);
+    left: calc(10%);
+}
+.serif {
+	width: 0;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 35px solid #00ff00;
+	border-bottom: 31px solid #00ff00;
+	transform: rotate(-50deg);
+}
+
+.bar {
+	width: 30px;
+	height: 220px;	
+}
+.bar2 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 61px solid transparent;
+}
+.bar3 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 96px solid transparent;
+
+}
+.bar4 {
+    width: 30px;
+    height: 204px;
+}
+
+.bar5{
+    width: 30px;
+    height: 176px;
+}
+.bar6{
+	width: 30px;
+    height: 137px;
+}
+
+.bar7{
+	width: 30px;
+    height: 106px;
+}
+
+.bar8{
+	width: 30px;
+    height: 147px;
+}
+
+.bar9{
+	width: 30px;
+    height: 223px;
+}
+
+.bar10{
+	width: 220px;
+    height: 30px;
+}
+.bar11 {
+	width: 30px;
+    height: 76px;
+}
+.bar-thick{
+	width: 116px;
+    height: 26px;
+    transform: rotate(-30deg);
+}
+.extra-long-bar-thin{
+	width: 138px;
+    height: 19px;
+    transform: rotate(-30deg);
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-top: 1px solid transparent;
+    border-right: 20px solid #00ff00;
+    border-bottom: 31px solid #00ff00;
+    transform: rotate(50deg);
+
+}
+.triangle2 {
+	width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 36px solid #00ff00;
+    border-bottom: 35px solid #00ff00;
+    transform: rotate(-50deg);
+}
+.triangle3{
+	width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 36px solid #00ff00;
+    border-bottom: 35px solid #00ff00;
+    transform: rotate(-67deg);
+}
+
+.triangle4{
+	    width: 0px;
+    height: 0px;
+    border-top: 1px solid transparent;
+    border-right: 20px solid #00ff00;
+    border-bottom: 31px solid #00ff00;
+    transform: rotate(61deg);
+}
+
+.nine {
+	position: absolute;
+	top: calc(27%);
+    left: calc(76%);
+}
+
+.ten {
+	position: absolute;
+	left: calc(75%);
+    top: calc(32%);
+}
+.eleven {
+	position: relative;
+	left: calc(83%);
+    top: calc(38%);
+}
+
+.tweleve {
+	position: relative;
+	left: calc(43%);
+    top: calc(42%);
+}
+.thirteen {
+	position: relative;
+	left: calc(29%);
+    top: calc(42%);
+
+}
+
+
+.fourteen{
+	position: relative;
+    left: calc(29%);
+    top: calc(70%);
+}
+
+.fifteen{
+	position: relative;
+   	left: calc(34%);
+    top: calc(77%);
+
+}
+.sixteen{
+    position: absolute;
+    left: calc(17%);
+    top: calc(25%);
+
+}
+.seventeen{
+	position: absolute;
+    top: calc(13%);
+    left: calc(14%);
+
+}
+._18{
+	position: absolute;
+    top: calc(11%);
+    left: calc(80%);
+
+}
+._19{
+	position: absolute;
+    top: calc(12%);
+    left: calc(131%);
+
+}
+._20{
+	position: absolute;
+    top: calc(74%);
+    left: calc(136%);
+
+}
+._21{
+	position: absolute;
+    top: calc(5%);
+    left: calc(124%);
+
+}
+._22{
+	position: absolute;
+    left: calc(50%);
+    top: calc(12%);
+
+}
+._23{
+	position: absolute;
+    top: calc(5%);
+    left: calc(43%);
+
+}
+._24{
+	position: absolute;
+    top: calc(74%);
+    left: calc(55%);
+
+}
+._25{
+	position: absolute;
+    top: calc(74%);
+    left: calc(88%);
+
+}
+
+._26{
+	position: absolute;
+	left: calc(34%);
+    top: calc(76%);
+}
+._27 {
+	position: absolute;
+    left: calc(29%);
+    top: calc(78%);
+}
+
+._28{
+	position: absolute;
+    top: calc(74%);
+    left: calc(81%);
+}
+._29{
+	position: absolute;
+    top: calc(39%);
+    left: calc(36%);
+}
+
+._30{
+	position: absolute;
+    left: calc(29%);
+    top: calc(78%);
+}
+._31{
+	position: absolute;
+    left: calc(76%);
+    top: calc(43%);
+}
+._32{
+	position: absolute;
+    left: calc(69%);
+    top: calc(37%);
+}
+._33{
+    position: absolute;
+    left: calc(76%);
+    top: calc(12%);
+}
+._34{
+    position: absolute;
+    top: calc(67%);
+    left: calc(13%);
+
+}
+
+._35{
+	position: absolute;
+    top: calc(67%);
+    left: calc(72%);
+}
+
+._36{
+    position: absolute;
+    left: calc(135%);
+    top: calc(12%);
+}
+._37{
+	    position: absolute;
+    top: calc(5%);
+    left: calc(128%);
+}
+
+._38{
+	position: absolute;
+   	top: calc(5%);
+   	left: calc(3%);
+}
+._39{
+	position: absolute;
+    top: calc(7%);
+    left: calc(-4%);
+}
+
+._40{
+	position: absolute;
+    top: calc(0%);
+    left: calc(101%);
+}
+
+._41{
+	position: absolute;
+    left: calc(17%);
+    top: calc(49%);
+}
+
+._42{
+	position: absolute;
+    top: calc(43%);
+    left: calc(21%);
+}
+
+._43{
+	position: absolute;
+    left: calc(16%);
+    top: calc(24%);
+}
+._44{
+	position: absolute;
+    top: calc(42%);
+    left: calc(21%);
+}
+._45{
+	position: absolute;
+    top: calc(29%);
+    left: calc(71%);
+}
+._46{
+	position: absolute;
+    left: calc(12%);
+    top: calc(72%);
+}
+.three {
+	position: absolute;
+	left: calc(17%);
+	top: calc(12%);
+}
+.two {
+	position: absolute;
+	left: calc(22%);
+	top: calc(74%);
+}
+
+.four {
+	position: absolute;
+	left: calc(76%);
+    top: calc(12%);
+}
+.five {
+	position: absolute;
+	top: calc(5%);
+    left: calc(69%);
+}
+
+.six {
+	position: absolute;
+	top: calc(74%);
+    left: calc(81%);
+}
+
+.bar-thin {
+	width: 112px;
+    height: 19px;
+    transform: rotate(-30deg);
+}
+
+.bar-thin2{
+	 width: 164px;
+    height: 19px;
+    transform: rotate(-33deg);
+}
+.bar-thin3{
+	width: 177px;
+    height: 19px;
+    transform: rotate(-33deg);
+}
+
+.seven {
+	position: absolute;
+    top: calc(11%);
+    left: calc(25%);
+
+}
+
+.eight {
+	position: absolute;
+    top: calc(39%);
+    left: calc(26%);
+}
+
+
+
+
+
+
