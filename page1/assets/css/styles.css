@@ -14,7 +14,9 @@ body {
 
 .green { background-color: white;
     animation-name: example;
-animation-duration: 4s;}
+animation-duration: 5s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;}
 .red { background-color: #ff0000 }
 .blue { background-color: #0000ff }
 
