@@ -1,5 +1,5 @@
 body {
-	margin: 10px;
+	margin: 0px;
 	font-size: 0px;
 	padding: 0;  }
 
@@ -7,12 +7,22 @@ body {
 	display: inline-block;
 	margin: 0 15px 0px 15px;
 }
+@keyframes example {
+    from {background-color: white;}
+    to {background-color: #00ff00;}
+}
 
-.green { background-color: #00ff00 }
+.green { background-color: white;
+    animation-name: example;
+animation-duration: 4s;}
 .red { background-color: #ff0000 }
 .blue { background-color: #0000ff }
 
-
+.bold {
+    stroke: #0f0;
+    stroke-width: 4px;
+    
+}
 .capa {
 
 	width: 200px;
@@ -42,7 +52,7 @@ body {
     margin: 3px;
     width: 3000px;
     position: absolute;
-    left: -600px;
+    left: 
 }
 
 .width{
@@ -68,6 +78,8 @@ body {
 	border-right: 35px solid #00ff00;
 	border-bottom: 31px solid #00ff00;
 	transform: rotate(-50deg);
+    animation-name: example;
+    animation-duration: 7s;
 }
 
 .bar {
@@ -131,6 +143,7 @@ body {
 	width: 138px;
     height: 19px;
     transform: rotate(-30deg);
+
 }
 
 .triangle {
