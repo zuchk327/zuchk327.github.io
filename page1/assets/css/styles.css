@@ -34,7 +34,7 @@ body {
 
 .time1 {
     animation-name: example;
-animation-duration: 4s;
+animation-duration: 5s;
 animation-fill-mode:forwards;
   animation-iteration-count: 1;
 display: inline-block;
@@ -43,7 +43,7 @@ position: relative;}
 
 .time2 {
     animation-name: example;
-animation-duration: 10s;
+animation-duration: 12s;
 animation-fill-mode:forwards;
   animation-iteration-count: 1;
 display: inline-block;
@@ -51,7 +51,7 @@ position: relative;}
 
 .time3 {
     animation-name: example;
-animation-duration: 16s;
+animation-duration: 19s;
 animation-fill-mode:forwards;
   animation-iteration-count: 1;
 display: inline-block;
@@ -59,7 +59,7 @@ position: relative;}
 
 .time4 {
     animation-name: example;
-animation-duration: 22s;
+animation-duration: 26s;
 animation-fill-mode:forwards;
   animation-iteration-count: 1;
 display: inline-block;
@@ -67,11 +67,17 @@ position: relative;}
 
 .time5 {
     animation-name: example;
-animation-duration: 28s;
+animation-duration: 33s;
 animation-fill-mode:forwards;
   animation-iteration-count: 1;
 display: inline-block;
 position: relative;}
+
+
+.shift{
+    position: absolute;
+    left: 10px;
+}
 
 .boxes{
     display: inline-block;
@@ -307,6 +313,33 @@ position: relative;}
     display: inline-block;
 
 }
+.move11{
+   position: relative;
+   top: -2px;
+    left: 75px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move12{
+   position: relative;
+       top: -220px;
+    left: 38px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+
+.move13{
+   position: relative;
+       top: -176px;
+    left: 35px;
+    z-index: 2;
+    display: inline-block;
+
+}
 .capa {
 
 	width: 200px;
@@ -315,9 +348,19 @@ position: relative;}
 	font-size: 0;
 	position: relative;
     display: inline-block;
+    z-index: 
+    background-color:transparent;
 
 
 	
+}
+
+.capa:hover {
+z-index: 600;
+ transform: scale(3.4);
+ background-color: transparent;
+ position: relative;
+
 }
 
 .smaller{
@@ -326,15 +369,22 @@ position: relative;}
     left: -1000px;
     display: table-row;
    position: absolute;
-   top: -860px;
+   top: -1160px;
 
 }
 .space {
     width: 94px;
     display: inline-block
 }
+.spacer {
+    width: 75px;
+    display: inline-block
+}
 .upfront{
     z-index: 5;
+}
+.behind{
+    z-index: -1
 }
 .title {
     display: inline-block;
@@ -370,7 +420,7 @@ position: relative;}
 	border-right: 35px solid #00ff00;
 	border-bottom: 31px solid #00ff00;
     animation-name: example2;
-    z-index: 5;
+    z-index: 6;
 
 
 }
@@ -516,8 +566,8 @@ position: relative;}
 
 .tweleve {
 	position: relative;
-	left: calc(43%);
-    top: calc(42%);
+	    left: calc(28%);
+    top: calc(48%);
 }
 .thirteen {
 	position: absolute;
@@ -681,6 +731,7 @@ position: relative;}
 	position: absolute;
     top: calc(0%);
     left: calc(101%);
+    z-index: 6;
 }
 
 ._41{
