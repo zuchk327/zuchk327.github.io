@@ -49,5 +49,43 @@ $(".box7").click(function() {
 
 
 
+$(".ordament").click(function() {
+           if (clicked=true) {
+            $(".time1").toggle();
+  
+           }
+        
+    
+  });
+
+$(".ordament2").click(function() {
+           if (clicked=true) {
+            $(".time2").toggle();
+  
+           }
+        
+    
+  });
+
+
+$(".ordament3").click(function() {
+           if (clicked=true) {
+            $(".time3").toggle();
+  
+           }
+        
+    
+  });
+
+$(".ordament4").click(function() {
+           if (clicked=true) {
+            $(".time4").toggle();
+  
+           }
+        
+    
+  });
+
+
 
 

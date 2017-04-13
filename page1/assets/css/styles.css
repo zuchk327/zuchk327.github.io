@@ -360,6 +360,7 @@ z-index: 600;
  transform: scale(3.4);
  background-color: transparent;
  position: relative;
+ opacity: .9;
 
 }
 
@@ -419,6 +420,18 @@ z-index: 600;
 	border-top: 10px solid transparent;
 	border-right: 35px solid #00ff00;
 	border-bottom: 31px solid #00ff00;
+    animation-name: example2;
+    z-index: 6;
+
+
+}
+.serifnew {
+    width: 0;
+    height: 0;
+    transform: rotate(-50deg);
+    border-top: 10px solid transparent;
+    border-right: 35px solid #ff0000;
+    border-bottom: 31px solid #ff0000;
     animation-name: example2;
     z-index: 6;
 
@@ -822,6 +835,44 @@ z-index: 600;
 	position: absolute;
     top: calc(39%);
     left: calc(26%);
+}
+
+.ordament {
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    cursor: pointer;
+}
+
+.ordament2 {
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000;
+    position: absolute;
+    left: 150px;
+    top: 85px;
+    cursor: pointer;
+}
+.ordament3 {
+    width: 10px;
+    height: 10px;
+    background-color: #0000ff;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    cursor: pointer;
+}
+.ordament4 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 115px;
+    cursor: pointer;
 }
 
 
