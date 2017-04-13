@@ -256,7 +256,57 @@ position: relative;}
 
 }
 
+.move5{
+   position: relative;
+       top: -294px;
+    left: 31px;
+    z-index: 2;
+    display: inline-block;
 
+}
+.move6{
+   position: relative;
+       top: -268px;
+    left: 27px;
+    z-index: 2;
+    display: inline-block;
+
+}
+.move7{
+   position: relative;
+    top: -2px;
+    left: 32px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move8{
+   position: relative;
+    top: -266px;
+    left: 69px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move9{
+   position: relative;
+       top: -176px;
+    left: 3px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move10{
+   position: relative;
+   top: -2px;
+    left: -2px;
+    z-index: 2;
+    display: inline-block;
+
+}
 .capa {
 
 	width: 200px;
@@ -276,12 +326,15 @@ position: relative;}
     left: -1000px;
     display: table-row;
    position: absolute;
-   top: -300px;
+   top: -860px;
 
 }
 .space {
-    width: 300px;
-    display: inline-block;
+    width: 94px;
+    display: inline-block
+}
+.upfront{
+    z-index: 5;
 }
 .title {
     display: inline-block;
@@ -317,6 +370,7 @@ position: relative;}
 	border-right: 35px solid #00ff00;
 	border-bottom: 31px solid #00ff00;
     animation-name: example2;
+    z-index: 5;
 
 
 }
