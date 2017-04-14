@@ -1,17 +1,77 @@
-def floodfill(x, y, oldColor, newColor):
+$(".box1").click(function() {
+           if (clicked=true) {
+           	$(".part1").toggle();
+           }
+  });
 
-    # assume surface is a 2D image and surface[x][y] is the color at x, y.
+$(".box2").click(function() {
+           if (clicked=true) {
+           	$(".part2").toggle();
+           }
+  });
 
-    if surface[x][y] != oldColor: # the base case
+$(".box3").click(function() {
+           if (clicked=true) {
+           	$(".part3").toggle();
+           }
+  });
 
-        return
+$(".box4").click(function() {
+           if (clicked=true) {
+           	$(".part1").show();
+           	$(".part2").show();
+           	$(".part3").show();
 
-    surface[x][y] = newColor
+           }
+  });
 
-    floodfill(x + 1, y, oldColor, newColor) # right
 
-    floodfill(x - 1, y, oldColor, newColor) # left
+$(".box5").click(function() {
+           if (clicked=true) {
+           	$(".part4").show();
 
-    floodfill(x, y + 1, oldColor, newColor) # down
+           }
+  });
 
-    floodfill(x, y - 1, oldColor, newColor) # up
+$(".box6").click(function() {
+           if (clicked=true) {
+           	$(".part6").show();
+
+           }
+  });
+
+$(".box7").click(function() {
+           if (clicked=true) {
+           	$(".part5").show();
+
+           }
+  });
+
+
+$(document).ready(function(){
+    $(this).scrollTop(0);
+});
+
+var charsTyped = 0;
+var lines_typed = 0;
+var window_height = $(window).height();
+var total_text_height = 1;
+
+$(window).keypress(function(e) {
+  
+  if (e.which == 97 || e.which == 65) {
+  	$(".stage").append($(".capa").clone().removeClass("capa"));
+  }
+
+
+});
+
+
+
+
+
+
+
+
+
+

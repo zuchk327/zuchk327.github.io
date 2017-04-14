@@ -70,6 +70,7 @@ $(".ordament2").click(function() {
 
 $(".ordament3").click(function() {
            if (clicked=true) {
+            
             $(".time3").toggle();
   
            }

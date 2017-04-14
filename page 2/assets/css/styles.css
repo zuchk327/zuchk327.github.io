@@ -1,17 +1,1415 @@
-def floodfill(x, y, oldColor, newColor):
+*{
+	background-color: black;
+	display: inline-block;
+}
+body {
+	margin: 0px;
+	font-size: 0px;
+	padding: 0;  }
 
-    # assume surface is a 2D image and surface[x][y] is the color at x, y.
+.wrapper {
+	display: inline-block;
+	margin: 0 15px 0px 15px;
+}
+@keyframes example {
+    from {opacity: 0;}
+    to {opacity: : 1;}
+}
 
-    if surface[x][y] != oldColor: # the base case
+@keyframes example2 {
+    from {opacity: 0;}
+    to {opacity: : 1;}
+}
 
-        return
 
-    surface[x][y] = newColor
+.allletters{
+	display: none;
+}
 
-    floodfill(x + 1, y, oldColor, newColor) # right
+.green { background-color: #00ff00}
+.red { background-color: #ff0000 }
+.blue { background-color: #0000ff }
 
-    floodfill(x - 1, y, oldColor, newColor) # left
+.bold {
+    stroke: #0f0;
+    stroke-width: 4px;
+    
+}
 
-    floodfill(x, y + 1, oldColor, newColor) # down
 
-    floodfill(x, y - 1, oldColor, newColor) # up
+.time1 {
+    animation-name: example;
+animation-duration: 5s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+display: inline-block;
+position: relative;}
+
+
+.time2 {
+    animation-name: example;
+animation-duration: 12s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+display: inline-block;
+position: relative;}
+
+.time3 {
+    animation-name: example;
+animation-duration: 19s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+display: inline-block;
+position: relative;}
+
+.time4 {
+    animation-name: example;
+animation-duration: 26s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+display: inline-block;
+position: relative;}
+
+.time5 {
+    animation-name: example;
+animation-duration: 33s;
+animation-fill-mode:forwards;
+  animation-iteration-count: 1;
+display: inline-block;
+position: relative;}
+
+
+.shift{
+    position: absolute;
+    left: 10px;
+}
+
+.boxes{
+    display: inline-block;
+    position: fixed;
+    top: -100px;
+    z-index: 1;
+
+}
+.box1 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #ff0000;
+    margin: 10px;
+    cursor: pointer;
+
+
+}
+.box2 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #0f0;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.box3 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #0000ff;
+    cursor: pointer;
+    margin: 10px;
+
+}
+
+
+
+
+.box4 {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    top: 620px;
+    left: 200px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: white;
+    margin: 10px;
+
+}
+
+
+
+
+.box5 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #f00;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.box6 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #0f0;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+
+
+.box7 {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    background-color: #00f;
+    margin: 10px;
+    cursor: pointer;
+
+}
+
+.box8 {
+    width: 200px;
+    height: 50px;
+    display: inline-block;
+    position: fixed;
+    top: 685px;
+    left: 0px;
+    z-index: 1;
+    cursor: pointer;
+    background-color: white;
+    margin: 10px;
+
+}
+
+
+
+
+
+
+
+.part1{
+    display: none;
+    opacity: .9;
+    z-index: 1;
+
+}
+.part2{
+    display: none;
+    opacity: .9;
+}
+.part3{
+    display: none;
+    opacity: .9;
+}
+.part4{
+    display: none;
+    opacity: .9;
+}
+.part5{
+    display: none;
+    opacity: .9;
+}
+.part6{
+    display: none;
+    opacity: .9;
+}
+.part7{
+    display: none;
+    opacity: .9;
+}
+.part8{
+    display: none;
+    opacity: .9;
+}
+
+
+.move {
+    position: relative;
+    top: -296px;
+    left: 39px;
+    display: inline-block;
+
+}
+
+.move2 {
+    position: relative;
+  top: -181px;
+    left: 61px;
+    display: inline-block;
+    z-index: 1;
+
+}
+
+.move3{
+   position: relative;
+    top: -297px;
+    left: 75px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+
+.move4{
+   position: relative;
+        top: 1px;
+    left: 51px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move5{
+   position: relative;
+       top: -294px;
+    left: 31px;
+    z-index: 2;
+    display: inline-block;
+
+}
+.move6{
+   position: relative;
+       top: -268px;
+    left: 27px;
+    z-index: 2;
+    display: inline-block;
+
+}
+.move7{
+   position: relative;
+    top: -2px;
+    left: 32px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move8{
+   position: relative;
+    top: -266px;
+    left: 69px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move9{
+   position: relative;
+       top: -176px;
+    left: 3px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move10{
+   position: relative;
+   top: -2px;
+    left: -2px;
+    z-index: 2;
+    display: inline-block;
+
+}
+.move11{
+   position: relative;
+   top: -2px;
+    left: 75px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+.move12{
+   position: relative;
+       top: -220px;
+    left: 38px;
+    z-index: 2;
+    display: inline-block;
+
+}
+
+
+.move13{
+   position: relative;
+       top: -176px;
+    left: 35px;
+    z-index: 2;
+    display: inline-block;
+
+}
+.capa {
+
+	width: 200px;
+	height: 320px;
+	margin: 0;
+	font-size: 0;
+	position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+	
+}
+.capa:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capb{
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capb:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capc {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capc:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capd {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capd:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.cape {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.cape:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capf {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capf:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capg {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capg:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.caph {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.caph:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capi {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capi:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capj {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capj:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capk {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capk:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capl {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capl:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capm {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capm:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capn {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capn:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capo {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capo:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capp {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capp:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capq {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capq:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capr {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capr:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.caps {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.caps:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capt {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capt:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capu {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+.capu:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+
+.capv {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+
+.capv:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+.capw {
+
+    width: 200px;
+    height: 320px;
+    margin: 0;
+    font-size: 0;
+    position: relative;
+    display: inline-block;
+    z-index: 
+    background-color:transparent;
+
+
+    
+}
+
+.capw:hover {
+z-index: 600;
+
+ background-color: transparent;
+ position: relative;
+ opacity: .9;
+
+}
+
+.smaller{
+    transform: scale(.2);
+    width: 3000px;
+    left: -1000px;
+    display: table-row;
+   position: absolute;
+   top: -1160px;
+
+}
+.space {
+    width: 94px;
+    display: inline-block
+}
+.spacer {
+    width: 75px;
+    display: inline-block
+}
+.upfront{
+    z-index: 5;
+}
+.behind{
+    z-index: -1
+}
+.title {
+    display: inline-block;
+    transform: scale(.4);
+    color: #0000ff;
+    margin: 3px;
+    width: 3000px;
+    position: absolute;
+    left: 
+}
+
+.width{
+   padding: 0px 33px 0px 3px;
+    display: inline-block;
+}
+
+.width2{
+   padding: 0px 31px 0px 21px;
+   display: inline-block;
+}
+
+
+.one{
+	position: absolute;
+     top: calc(6%);
+    left: calc(10%);
+}
+.serif {
+	width: 0;
+	height: 0;
+    transform: rotate(-50deg);
+	border-top: 10px solid transparent;
+	border-right: 35px solid #00ff00;
+	border-bottom: 31px solid #00ff00;
+    animation-name: example2;
+    z-index: 6;
+
+
+}
+.serifnew {
+    width: 0;
+    height: 0;
+    transform: rotate(-50deg);
+    border-top: 10px solid transparent;
+    border-right: 35px solid #ff0000;
+    border-bottom: 31px solid #ff0000;
+    animation-name: example2;
+    z-index: 6;
+
+
+}
+
+.serif_2 {
+    width: 0;
+    height: 0;
+    transform: rotate(-50deg);
+    border-top: 10px solid transparent;
+    border-right: 35px solid #f00;
+    border-bottom: 31px solid #f00;
+ 
+
+
+}
+
+.bar {
+	width: 30px;
+	height: 220px;
+    z-index: 2;	
+}
+.bar2 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 61px solid transparent;
+}
+.bar3 {
+	width: 30px;
+    height: 0px;
+    border-bottom: 96px solid transparent;
+
+}
+.bar4 {
+    width: 30px;
+    height: 204px;
+}
+
+.bar5{
+    width: 30px;
+    height: 176px;
+}
+.bar6{
+	width: 30px;
+    height: 137px;
+}
+
+.bar7{
+	width: 30px;
+    height: 106px;
+}
+
+.bar8{
+	width: 30px;
+    height: 147px;
+}
+
+.bar9{
+	width: 30px;
+    height: 223px;
+}
+
+.bar10{
+	width: 220px;
+    height: 30px;
+}
+.bar11 {
+	width: 30px;
+    height: 76px;
+}
+.bar-thick{
+	width: 116px;
+    height: 26px;
+    transform: rotate(-30deg);
+}
+.extra-long-bar-thin{
+	width: 138px;
+    height: 19px;
+    transform: rotate(-30deg);
+
+}
+
+.triangle {
+	width: 0px;
+	height: 0px;
+	border-top: 1px solid transparent;
+    border-right: 20px solid #00ff00;
+    border-bottom: 31px solid #00ff00;
+    transform: rotate(50deg);
+
+}
+
+.triangle_2 {
+    width: 0px;
+    height: 0px;
+    border-top: 1px solid transparent;
+    border-right: 20px solid #f00;
+    border-bottom: 31px solid #f00;
+    transform: rotate(50deg);
+
+}
+.triangle2 {
+	width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 36px solid #00ff00;
+    border-bottom: 35px solid #00ff00;
+    transform: rotate(-50deg);
+}
+.triangle3{
+	width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-right: 36px solid #00ff00;
+    border-bottom: 35px solid #00ff00;
+    transform: rotate(-67deg);
+}
+
+.triangle4{
+	    width: 0px;
+    height: 0px;
+    border-top: 1px solid transparent;
+    border-right: 20px solid #00ff00;
+    border-bottom: 31px solid #00ff00;
+    transform: rotate(61deg);
+}
+
+.nine {
+	position: absolute;
+	top: calc(27%);
+    left: calc(76%);
+}
+
+.ten {
+	position: absolute;
+	left: calc(75%);
+    top: calc(32%);
+}
+.eleven {
+	position: relative;
+	left: calc(83%);
+    top: calc(38%);
+}
+
+.tweleve {
+	position: relative;
+	    left: calc(28%);
+    top: calc(48%);
+}
+.thirteen {
+	position: absolute;
+	left: calc(29%);
+    top: calc(78%);
+
+}
+
+
+.fourteen{
+	position: absolute;
+    left: calc(29%);
+    top: calc(79%);
+}
+
+.fifteen{
+	position: relative;
+   	left: calc(34%);
+    top: calc(77%);
+
+}
+.sixteen{
+    position: absolute;
+    left: calc(17%);
+    top: calc(25%);
+
+}
+.seventeen{
+	position: absolute;
+    top: calc(13%);
+    left: calc(14%);
+
+}
+._18{
+	position: absolute;
+    top: calc(11%);
+    left: calc(80%);
+
+}
+._19{
+	position: absolute;
+    top: calc(12%);
+    left: calc(131%);
+
+}
+._20{
+	position: absolute;
+    top: calc(74%);
+    left: calc(136%);
+
+}
+._21{
+	position: absolute;
+    top: calc(5%);
+    left: calc(124%);
+
+}
+._22{
+	position: absolute;
+    left: calc(50%);
+    top: calc(12%);
+
+}
+._23{
+	position: absolute;
+    top: calc(5%);
+    left: calc(43%);
+
+}
+._24{
+	position: absolute;
+    top: calc(74%);
+    left: calc(55%);
+
+}
+._25{
+	position: absolute;
+    top: calc(74%);
+    left: calc(88%);
+
+}
+
+._26{
+	position: absolute;
+	left: calc(34%);
+    top: calc(76%);
+}
+._27 {
+	position: absolute;
+    left: calc(29%);
+    top: calc(78%);
+}
+
+._28{
+	position: absolute;
+    top: calc(74%);
+    left: calc(81%);
+}
+._29{
+	position: absolute;
+    top: calc(39%);
+    left: calc(36%);
+}
+
+._30{
+	position: absolute;
+    left: calc(29%);
+    top: calc(78%);
+}
+._31{
+	position: absolute;
+    left: calc(76%);
+    top: calc(43%);
+}
+._32{
+	position: absolute;
+    left: calc(69%);
+    top: calc(37%);
+}
+._33{
+    position: absolute;
+    left: calc(76%);
+    top: calc(12%);
+}
+._34{
+    position: absolute;
+    top: calc(67%);
+    left: calc(13%);
+
+}
+
+._35{
+	position: absolute;
+    top: calc(67%);
+    left: calc(72%);
+}
+
+._36{
+    position: absolute;
+    left: calc(135%);
+    top: calc(12%);
+}
+._37{
+	    position: absolute;
+    top: calc(5%);
+    left: calc(128%);
+}
+
+._38{
+	position: absolute;
+   	top: calc(5%);
+   	left: calc(3%);
+}
+._39{
+	position: absolute;
+    top: calc(7%);
+    left: calc(-4%);
+}
+
+._40{
+	position: absolute;
+    top: calc(0%);
+    left: calc(101%);
+    z-index: 6;
+}
+
+._41{
+	position: absolute;
+    left: calc(17%);
+    top: calc(49%);
+}
+
+._42{
+	position: absolute;
+    top: calc(43%);
+    left: calc(21%);
+}
+
+._43{
+	position: absolute;
+    left: calc(16%);
+    top: calc(24%);
+}
+._44{
+	position: absolute;
+    top: calc(42%);
+    left: calc(21%);
+}
+._45{
+	position: absolute;
+    top: calc(29%);
+    left: calc(71%);
+}
+._46{
+	position: absolute;
+    left: calc(12%);
+    top: calc(72%);
+}
+.three {
+	position: absolute;
+	left: calc(17%);
+	top: calc(12%);
+}
+.two {
+	position: absolute;
+	left: calc(22%);
+	top: calc(74%);
+}
+
+.four {
+	position: absolute;
+	left: calc(76%);
+    top: calc(12%);
+}
+.five {
+	position: absolute;
+	top: calc(5%);
+    left: calc(69%);
+}
+
+.six {
+	position: absolute;
+	top: calc(74%);
+    left: calc(81%);
+}
+
+.bar-thin {
+	width: 112px;
+    height: 19px;
+    transform: rotate(-30deg);
+}
+
+.bar-thin2{
+	 width: 164px;
+    height: 19px;
+    transform: rotate(-33deg);
+}
+.bar-thin3{
+	width: 177px;
+    height: 19px;
+    transform: rotate(-33deg);
+}
+
+.seven {
+	position: absolute;
+    top: calc(11%);
+    left: calc(25%);
+
+}
+
+.eight {
+	position: absolute;
+    top: calc(39%);
+    left: calc(26%);
+}
+
+.ordament {
+    width: 10px;
+    height: 10px;
+    background-color: #00ff00;
+    position: absolute;
+    left: 150px;
+    top: 70px;
+    cursor: pointer;
+}
+
+.ordament2 {
+    width: 10px;
+    height: 10px;
+    background-color: #ff0000;
+    position: absolute;
+    left: 150px;
+    top: 85px;
+    cursor: pointer;
+}
+.ordament3 {
+    width: 10px;
+    height: 10px;
+    background-color: #0000ff;
+    position: absolute;
+    left: 150px;
+    top: 100px;
+    cursor: pointer;
+}
+.ordament4 {
+    width: 10px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    left: 150px;
+    top: 115px;
+    cursor: pointer;
+}
+@keyframes "blink" {
+  from, to {
+    color: transparent;}
+  50% { color: white;
+        cursor: text;}
+
+}
+
+@-moz-keyframes blink {
+  from, to {
+    color: transparent;}
+  50% { color: white;
+        cursor: text;}
+}
+
+@-webkit-keyframes "blink" {
+  from, to { color: transparent;} 
+  50% { color: aqua;
+        cursor: text;}
+}
+
+@-ms-keyframes "blink" {
+  from, to {color: transparent;}
+  50% {color: white;
+      cursor: text;}
+}
+
+@-o-keyframes "blink" {
+  from, to {mcolor: transparent;}
+  50% { color: aqua;
+        cursor: text;}
+}
+.ordament5 {
+    width: 10px;
+    height: 55px;
+    background-color: white;
+    position: absolute;
+    left: 165px;
+    top: 70px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+
