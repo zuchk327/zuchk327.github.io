@@ -1407,6 +1407,8 @@ z-index: 600;
     left: 165px;
     top: 70px;
     cursor: pointer;
+    animation: ease-in-out;
+    animation-duration: 4s;
 
 }
 
