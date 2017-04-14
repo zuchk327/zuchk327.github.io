@@ -1,6 +1,7 @@
 *{
 	background-color: black;
 	display: inline-block;
+
 }
 body {
 	margin: 0px;
@@ -443,6 +444,7 @@ z-index: 600;
     display: inline-block;
     z-index: 
     background-color:transparent;
+     background-blend-mode: overlay;
 
 
     
