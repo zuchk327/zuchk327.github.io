@@ -1,3 +1,9 @@
+  function blinker() {
+  $(".ordament5").fadeOut(500);
+  $(".ordament5").fadeIn(500);
+}
+
+
 $(".box1").click(function() {
            if (clicked=true) {
            	$(".part1").toggle();
