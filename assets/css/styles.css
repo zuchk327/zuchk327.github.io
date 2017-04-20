@@ -182,6 +182,36 @@ a:link {
 }
 
 
+.box {
+    width: 200px;
+    color: #0f0;
+    display: inline-block;
+    padding: 0 40px;
+    position: fixed;
+    left: 134px;
+    top: 80px;
+}
+
+.box1 {
+    width: 200px;
+    color: #0f0;
+    display: inline-block;
+    padding: 0 40px;
+    position: fixed;
+    left: 184px;
+    top: 80px;
+}
+
+.box2 {
+    width: 200px;
+    color: #0f0;
+    display: inline-block;
+    padding: 0 40px;
+    position: fixed;
+    left: 234px;
+    top: 80px;
+}
+
 
 
 
