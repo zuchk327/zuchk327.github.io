@@ -16,6 +16,9 @@ body {
 
 }
 
+.green {
+    color: #0f0;
+}
 
 
 
@@ -102,7 +105,6 @@ body {
     font-size: 14px;
     position: relative;
     display: inline;
-    color: black;
     cursor: help;
     left:131px;
 
@@ -124,7 +126,6 @@ body {
     font-size: 14px;
     position: relative;
     display: inline;
-    color: black;
     cursor: move;
     left: 135px;
 
