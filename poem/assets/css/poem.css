@@ -1,0 +1,37 @@
+.wrapper {
+	margin: 20px;
+
+}
+
+.title {
+	font-family: Helvetica, Helvetica Neue, Helvetica Black, sans-serif; 
+	font-size: 25px;
+	font-weight: bolder;
+	align-self: center;
+	color: #00f;
+ position: absolute;
+    top: 70px;
+    left: 26%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-appearance: none;
+	
+
+
+
+}
+
+.box {
+	width: 720px;
+	height: 400px;
+    padding: 10px;
+   
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}

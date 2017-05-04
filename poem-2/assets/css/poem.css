@@ -1,0 +1,129 @@
+.wrapper {
+	margin: 20px;
+
+}
+
+.title {
+	font-family: Helvetica, Helvetica Neue, Helvetica Black, sans-serif; 
+	font-size: 25px;
+	font-weight: bolder;
+	align-self: center;
+	color: #00f;
+ position: absolute;
+    top: 70px;
+    left: 26%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    -webkit-appearance: none;
+	
+
+
+
+}
+
+.box {
+	width: 720px;
+	height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 50%;
+    left: 40%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box1 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 60%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box2 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 70%;
+    left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box3 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 90%;
+    left: 105%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+.box4 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 40%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box5 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 100%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+
+.box6 {
+    width: 720px;
+    height: 400px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 50%;
+    left: 60%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
