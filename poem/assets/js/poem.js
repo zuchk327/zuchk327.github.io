@@ -1,4 +1,3 @@
-
 var objects = ['assets/img/video-1.mp4' ,
                 'assets/img/video-2.mp4' ,
                 'assets/img/video-3.mp4' ,
@@ -17,16 +16,35 @@ var objects = ['assets/img/video-1.mp4' ,
 
               ];
 
+
+
+
+
+
 $('.title').click(function() {
   var random_object_number = Math.floor(Math.random() * objects.length);
   var object_to_use        = objects[random_object_number];
-
   var result = '';
 
-  if (random_object_number < 7) {
-    result = '<div class="object"><img src= "' + object_to_use + ' " /></div>';
+  if (random_object_number < 5) {
+    result = '<div class="object"><video autoplay width="320" height=auto loop="true"src="' + object_to_use + '" /></div>';
+  } 
+  else {
+    result = '<div class="object"><video autoplay width="500" height=auto loop="true"src="' + object_to_use + '" /></div>';
   } 
 
-  $('.').box(result);
+  $('.box').prepend(result);
 });
+
+
+$(".title").mouseenter(function() {
+            $("#video-2").show();
+        
+});
+
+$("#video-2").mouseenter(function() {
+            $(".e").show();
+        
+});
+
 
