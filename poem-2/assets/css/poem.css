@@ -48,6 +48,11 @@
     width: 800px;
     background: transparent;
 }
+#point {
+    display: inline-block;
+    color: white;
+    cursor: pointer;
+}
 
 .waiting {display: none;
     font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
@@ -232,7 +237,7 @@ left: -150px;}
     animation-iteration-count: infinite;
     width: 860px;
     background-color: : transparent;
-    z-index: 2;
+    z-index: 6;
 
 }
 
@@ -282,6 +287,22 @@ left: -150px;}
     position: relative; 
     left: -120px;}
 
+.emma{
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 100px;
+    color: #d1ff29;
+    position: absolute;
+    display: none;
+    top: 20%;
+    left: 60%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    width: 860px;
+    background-color: : transparent;
+    z-index: 10;
+}
 
 .american {
     font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
@@ -464,6 +485,21 @@ left: -90px;}
      align-self: center;
     top: 130%;
     left: 30%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box8 {
+   display: none;
+    width: 300px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 80%;
+    left: 70%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
    

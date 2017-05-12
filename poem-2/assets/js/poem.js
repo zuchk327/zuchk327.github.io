@@ -1,4 +1,7 @@
-
+$("#point").hover(function (){
+  $("#point").css("color", "yellow")
+  $("#point").css("cursor" , "loading")
+});
 
 
 $(".title").hover(function(){
@@ -72,6 +75,15 @@ $(".box7").mouseover(function(){
     
   });
 
+$(".weed").mouseover(function(){
+    $(".box8").show()
+    
+  });
+
+$(".box8").mouseover(function(){
+    $(".emma").show()
+    
+  });
 var objects = ['assets/img/video-1.mp4' ,
                 'assets/img/video-2.mp4' ,
                 'assets/img/video-3.mp4' ,
