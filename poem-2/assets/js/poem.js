@@ -1,3 +1,6 @@
+
+
+
 $(".title").hover(function(){
     $(".box").show()
     $("*").css("background-color", "black")
@@ -24,6 +27,10 @@ $("#i").mouseover(function(){
     $(".box4").show()
     
   });
+$("#n").mouseover(function(){
+    $(".box5").show()
+    
+  });
 
 $(".box2").mouseover(function(){
     $(".num_2").show()
@@ -39,7 +46,10 @@ $(".box4").mouseover(function(){
     $(".american").show()
     
   });
-
+$(".box5").mouseover(function(){
+    $(".everything").show()
+    
+  });
 
 
 
