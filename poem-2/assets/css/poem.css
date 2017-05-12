@@ -1,6 +1,7 @@
 *{
     cursor: copy;
     background-color: transparent;
+
 }
 .wrapper {
 	margin: 20px;
@@ -8,7 +9,7 @@
 }
 .blink_me {
   animation: blinker .2s linear infinite;
-  background: transparent;
+  background-color: transparent opacity .1;
 }
 
 @keyframes blinker {  
@@ -48,6 +49,20 @@
     background: transparent;
 }
 
+.waiting {display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 150px;
+    color: #ff00f3;
+    position: absolute;
+    top: 170%;
+    left: 0%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    width: 1000px;
+    background: transparent;
+}
 .title {
 	font-family: Helvetica, Helvetica Neue, Helvetica Black, sans-serif; 
 	font-size: 25px;
@@ -203,6 +218,23 @@ left: -150px;}
      }
 
 
+.weed {
+    display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 170px;
+    color: #29ffe5;
+    position: absolute;
+    top: 240px;
+    left: 350px;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+    width: 860px;
+    background-color: : transparent;
+    z-index: 2;
+
+}
 
 
 
@@ -407,6 +439,7 @@ left: -90px;}
 
 
 .box6 {
+    display: none;
     width: 720px;
     height: 400px;
     padding: 10px;
@@ -414,8 +447,23 @@ left: -90px;}
     margin: 0; 
      position: absolute;
      align-self: center;
-    top: 50%;
-    left: 60%;
+    top: 210%;
+    left: 90%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+   
+}
+
+.box7 {
+    display: none;
+    width: 300px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 130%;
+    left: 30%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
    

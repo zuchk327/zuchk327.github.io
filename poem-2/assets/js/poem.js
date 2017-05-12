@@ -52,7 +52,25 @@ $(".box5").mouseover(function(){
   });
 
 
+$(".everything").mouseover(function(){
+    $(".box6").show()
+    
+  });
 
+$(".box6").mouseover(function(){
+    $(".waiting").show()
+    
+  });
+
+$(".waiting").mouseover(function(){
+    $(".box7").show()
+    
+  });
+
+$(".box7").mouseover(function(){
+    $(".weed").show()
+    
+  });
 
 var objects = ['assets/img/video-1.mp4' ,
                 'assets/img/video-2.mp4' ,
