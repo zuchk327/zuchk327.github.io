@@ -85,3 +85,38 @@ $(".box8").mouseover(function(){
     
   });
 
+$("#point").hover(function(){
+  $("*").css("background-color", "white")
+});
+
+$(".emma").hover(function(){
+  $(".box9").show()
+});
+
+$(".box9").hover(function(){
+  $(".date").show()
+});
+
+$(".date").hover(function(){
+  $(".box10").show()
+});
+
+$(".box10").hover(function(){
+  $(".union").show()
+});
+
+$(".union").hover(function(){
+  $(".box11").show()
+});
+
+$(".box11").hover(function(){
+  $(".danger").show()
+});
+
+$(".danger").hover(function(){
+  $(".box12").show()
+});
+
+$(".box12").hover(function(){
+  $(".street").show()
+});

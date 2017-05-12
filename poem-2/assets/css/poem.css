@@ -295,13 +295,81 @@ left: -150px;}
     position: absolute;
     display: none;
     top: 20%;
-    left: 60%;
+    left: 10%;
     animation-name: blinker;
     animation-duration: .2s;
     animation-iteration-count: infinite;
-    width: 860px;
+  
     background-color: : transparent;
-    z-index: 10;
+    z-index: 20;
+}
+.union{
+    display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 180px;
+    color: #f00;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+  
+    background-color: : transparent;
+    z-index: 140;
+}
+
+.danger{
+    display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 180px;
+    color: #0f0;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+  
+    background-color: : transparent;
+    z-index: 160;
+}
+
+.street{
+    display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 200px;
+    color: #00f;
+    position: absolute;
+    top: 70%;
+    left: 20%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+  
+    background-color: : transparent;
+    z-index: 160;
+}
+
+
+.date{
+    display: none;
+    font-family: Helvetica, helvetica Neue, Helvetica Black, sans-serif;
+    font-weight: bolder;
+    font-size: 300px;
+    color: #ba00ff;
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    animation-name: blinker;
+    animation-duration: .2s;
+    animation-iteration-count: infinite;
+  
+    background-color: : transparent;
+    z-index: 120;
 }
 
 .american {
@@ -491,16 +559,83 @@ left: -90px;}
 }
 
 .box8 {
-   display: none;
+    display: none;
     width: 300px;
     padding: 10px;
     border: 0px solid #f00;
     margin: 0; 
      position: absolute;
      align-self: center;
-    top: 80%;
+    top: 30%;
     left: 70%;
     margin-right: -50%;
     transform: translate(-50%, -50%);
    
 }
+
+.box9 {
+    display: none;
+    width: 500px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 30%;
+    left: 70%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+   
+}
+
+
+.box10 {
+    display: none;
+    width: 500px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 90%;
+    left: 20%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+   
+}
+
+.box11{
+    width: 500px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 80%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 160;
+    display: none;
+   
+}
+
+
+.box12{
+    display: none;
+    width: 500px;
+    padding: 10px;
+    border: 0px solid #f00;
+    margin: 0; 
+     position: absolute;
+     align-self: center;
+    top: 100%;
+    left: 80%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    z-index: 180;
+   
+}
+
