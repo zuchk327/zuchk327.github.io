@@ -4,6 +4,10 @@
     
 }
 
+.display {
+    display: none;
+}
+
 .wrapper {
     margin: 40px 80px 80px 20%;
 
